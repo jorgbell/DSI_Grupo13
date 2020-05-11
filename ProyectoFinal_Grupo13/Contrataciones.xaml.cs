@@ -52,5 +52,10 @@ namespace ProyectoFinal_Grupo13
             //Texto.Text = Item.Explicacion;
             //ImagenC.Source = Item.Img.Source;
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(Map));
+        }
     }
 }

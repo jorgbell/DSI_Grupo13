@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>bb8bb4c3-e161-4a75-bc82-ac2ea29f6945</PackageIdentityName>
     <PackageIdentityPublisher>CN=jorge</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\jorge\OneDrive\Documentos\GitHub\DSI\putamierda\ProyectoFinal_Grupo13\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\jorge\OneDrive\Documentos\GitKraken\DSI_Grupo13\ProyectoFinal_Grupo13\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,7 +18,7 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\jorge\OneDrive\Documentos\GitHub\DSI\putamierda\ProyectoFinal_Grupo13\bin\x86\Debug\AppX</LayoutDir>
+    <LayoutDir>C:\Users\jorge\OneDrive\Documentos\GitKraken\DSI_Grupo13\ProyectoFinal_Grupo13\bin\x86\Debug\AppX</LayoutDir>
     <RegisteredManifestChecksum>61AA910BE5361EFE5BAD49E92A3D1526354D02C22BFBAC219915B0DE78B3FEFC</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>bb8bb4c3-e161-4a75-bc82-ac2ea29f6945_1.0.0.0_x86__619vkkdqjhexe</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>bb8bb4c3-e161-4a75-bc82-ac2ea29f6945_619vkkdqjhexe!App</RegisteredUserModeAppID>
@@ -27,16 +27,16 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\jorge\OneDrive\Documentos\GitHub\DSI\putamierda\ProyectoFinal_Grupo13\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\jorge\OneDrive\Documentos\GitKraken\DSI_Grupo13\ProyectoFinal_Grupo13\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-05-07T14:05:07.287</Modified>
+      <Modified>2020-05-11T15:02:01.245</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\jorge\OneDrive\Documentos\GitHub\DSI\putamierda\ProyectoFinal_Grupo13\bin\x86\Debug\ProyectoFinal_Grupo13.exe">
+    <AppxPackagedFile Include="C:\Users\jorge\OneDrive\Documentos\GitKraken\DSI_Grupo13\ProyectoFinal_Grupo13\bin\x86\Debug\ProyectoFinal_Grupo13.exe">
       <PackagePath>entrypoint\ProyectoFinal_Grupo13.exe</PackagePath>
-      <Modified>2020-05-07T14:05:06.090</Modified>
+      <Modified>2020-05-11T15:02:00.784</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.9\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -46,175 +46,175 @@
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
       <Modified>2019-03-18T17:36:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jorge\OneDrive\Documentos\GitHub\DSI\putamierda\ProyectoFinal_Grupo13\Assets\1200px-Speaker_Icon.svg.png">
+    <AppxPackagedFile Include="C:\Users\jorge\OneDrive\Documentos\GitKraken\DSI_Grupo13\ProyectoFinal_Grupo13\Assets\1200px-Speaker_Icon.svg.png">
       <PackagePath>Assets\1200px-Speaker_Icon.svg.png</PackagePath>
       <Modified>2020-05-04T08:54:24.426</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jorge\OneDrive\Documentos\GitHub\DSI\putamierda\ProyectoFinal_Grupo13\Assets\descarga.png">
+    <AppxPackagedFile Include="C:\Users\jorge\OneDrive\Documentos\GitKraken\DSI_Grupo13\ProyectoFinal_Grupo13\Assets\descarga.png">
       <PackagePath>Assets\descarga.png</PackagePath>
       <Modified>2020-05-04T08:58:00.556</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jorge\OneDrive\Documentos\GitHub\DSI\putamierda\ProyectoFinal_Grupo13\Assets\discord_icon_130958.png">
+    <AppxPackagedFile Include="C:\Users\jorge\OneDrive\Documentos\GitKraken\DSI_Grupo13\ProyectoFinal_Grupo13\Assets\discord_icon_130958.png">
       <PackagePath>Assets\discord_icon_130958.png</PackagePath>
       <Modified>2020-05-04T08:53:57.581</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jorge\OneDrive\Documentos\GitHub\DSI\putamierda\ProyectoFinal_Grupo13\Assets\iconfinder-twitter-4555883_121368.png">
+    <AppxPackagedFile Include="C:\Users\jorge\OneDrive\Documentos\GitKraken\DSI_Grupo13\ProyectoFinal_Grupo13\Assets\iconfinder-twitter-4555883_121368.png">
       <PackagePath>Assets\iconfinder-twitter-4555883_121368.png</PackagePath>
       <Modified>2020-05-04T08:53:18.867</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jorge\OneDrive\Documentos\GitHub\DSI\putamierda\ProyectoFinal_Grupo13\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\jorge\OneDrive\Documentos\GitKraken\DSI_Grupo13\ProyectoFinal_Grupo13\Assets\Madrid.png">
+      <PackagePath>Assets\Madrid.png</PackagePath>
+      <Modified>2020-05-07T14:08:55.976</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jorge\OneDrive\Documentos\GitKraken\DSI_Grupo13\ProyectoFinal_Grupo13\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
       <Modified>2020-01-23T18:28:59.711</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jorge\OneDrive\Documentos\GitHub\DSI\putamierda\ProyectoFinal_Grupo13\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\jorge\OneDrive\Documentos\GitKraken\DSI_Grupo13\ProyectoFinal_Grupo13\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-01-23T18:28:59.711</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jorge\OneDrive\Documentos\GitHub\DSI\putamierda\ProyectoFinal_Grupo13\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\jorge\OneDrive\Documentos\GitKraken\DSI_Grupo13\ProyectoFinal_Grupo13\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-01-23T18:28:59.711</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jorge\OneDrive\Documentos\GitHub\DSI\putamierda\ProyectoFinal_Grupo13\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\jorge\OneDrive\Documentos\GitKraken\DSI_Grupo13\ProyectoFinal_Grupo13\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-01-23T18:28:59.711</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jorge\OneDrive\Documentos\GitHub\DSI\putamierda\ProyectoFinal_Grupo13\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\jorge\OneDrive\Documentos\GitKraken\DSI_Grupo13\ProyectoFinal_Grupo13\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-01-23T18:28:59.711</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jorge\OneDrive\Documentos\GitHub\DSI\putamierda\ProyectoFinal_Grupo13\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\jorge\OneDrive\Documentos\GitKraken\DSI_Grupo13\ProyectoFinal_Grupo13\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-01-23T18:28:59.711</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jorge\OneDrive\Documentos\GitHub\DSI\putamierda\ProyectoFinal_Grupo13\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\jorge\OneDrive\Documentos\GitKraken\DSI_Grupo13\ProyectoFinal_Grupo13\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-01-23T18:28:59.711</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jorge\OneDrive\Documentos\GitHub\DSI\putamierda\ProyectoFinal_Grupo13\Assets\Images\1.jpg">
+    <AppxPackagedFile Include="C:\Users\jorge\OneDrive\Documentos\GitKraken\DSI_Grupo13\ProyectoFinal_Grupo13\Assets\Images\1.jpg">
       <PackagePath>Assets\Images\1.jpg</PackagePath>
       <Modified>2020-05-06T18:56:24.553</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jorge\OneDrive\Documentos\GitHub\DSI\putamierda\ProyectoFinal_Grupo13\Assets\Images\10.jpg">
+    <AppxPackagedFile Include="C:\Users\jorge\OneDrive\Documentos\GitKraken\DSI_Grupo13\ProyectoFinal_Grupo13\Assets\Images\10.jpg">
       <PackagePath>Assets\Images\10.jpg</PackagePath>
       <Modified>2020-05-06T18:56:24.617</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jorge\OneDrive\Documentos\GitHub\DSI\putamierda\ProyectoFinal_Grupo13\Assets\Images\11.jpg">
+    <AppxPackagedFile Include="C:\Users\jorge\OneDrive\Documentos\GitKraken\DSI_Grupo13\ProyectoFinal_Grupo13\Assets\Images\11.jpg">
       <PackagePath>Assets\Images\11.jpg</PackagePath>
       <Modified>2020-05-06T18:56:24.622</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jorge\OneDrive\Documentos\GitHub\DSI\putamierda\ProyectoFinal_Grupo13\Assets\Images\12.jpg">
+    <AppxPackagedFile Include="C:\Users\jorge\OneDrive\Documentos\GitKraken\DSI_Grupo13\ProyectoFinal_Grupo13\Assets\Images\12.jpg">
       <PackagePath>Assets\Images\12.jpg</PackagePath>
       <Modified>2020-05-06T18:56:24.626</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jorge\OneDrive\Documentos\GitHub\DSI\putamierda\ProyectoFinal_Grupo13\Assets\Images\13.jpg">
+    <AppxPackagedFile Include="C:\Users\jorge\OneDrive\Documentos\GitKraken\DSI_Grupo13\ProyectoFinal_Grupo13\Assets\Images\13.jpg">
       <PackagePath>Assets\Images\13.jpg</PackagePath>
       <Modified>2020-05-06T18:56:24.632</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jorge\OneDrive\Documentos\GitHub\DSI\putamierda\ProyectoFinal_Grupo13\Assets\Images\14.jpg">
+    <AppxPackagedFile Include="C:\Users\jorge\OneDrive\Documentos\GitKraken\DSI_Grupo13\ProyectoFinal_Grupo13\Assets\Images\14.jpg">
       <PackagePath>Assets\Images\14.jpg</PackagePath>
       <Modified>2020-05-06T18:56:24.637</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jorge\OneDrive\Documentos\GitHub\DSI\putamierda\ProyectoFinal_Grupo13\Assets\Images\15.jpg">
+    <AppxPackagedFile Include="C:\Users\jorge\OneDrive\Documentos\GitKraken\DSI_Grupo13\ProyectoFinal_Grupo13\Assets\Images\15.jpg">
       <PackagePath>Assets\Images\15.jpg</PackagePath>
       <Modified>2020-05-06T18:56:24.642</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jorge\OneDrive\Documentos\GitHub\DSI\putamierda\ProyectoFinal_Grupo13\Assets\Images\16.jpg">
+    <AppxPackagedFile Include="C:\Users\jorge\OneDrive\Documentos\GitKraken\DSI_Grupo13\ProyectoFinal_Grupo13\Assets\Images\16.jpg">
       <PackagePath>Assets\Images\16.jpg</PackagePath>
       <Modified>2020-05-06T18:56:24.655</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jorge\OneDrive\Documentos\GitHub\DSI\putamierda\ProyectoFinal_Grupo13\Assets\Images\17.jpg">
+    <AppxPackagedFile Include="C:\Users\jorge\OneDrive\Documentos\GitKraken\DSI_Grupo13\ProyectoFinal_Grupo13\Assets\Images\17.jpg">
       <PackagePath>Assets\Images\17.jpg</PackagePath>
       <Modified>2020-05-06T18:56:24.661</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jorge\OneDrive\Documentos\GitHub\DSI\putamierda\ProyectoFinal_Grupo13\Assets\Images\18.jpg">
+    <AppxPackagedFile Include="C:\Users\jorge\OneDrive\Documentos\GitKraken\DSI_Grupo13\ProyectoFinal_Grupo13\Assets\Images\18.jpg">
       <PackagePath>Assets\Images\18.jpg</PackagePath>
       <Modified>2020-05-06T18:56:24.666</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jorge\OneDrive\Documentos\GitHub\DSI\putamierda\ProyectoFinal_Grupo13\Assets\Images\19.jpg">
+    <AppxPackagedFile Include="C:\Users\jorge\OneDrive\Documentos\GitKraken\DSI_Grupo13\ProyectoFinal_Grupo13\Assets\Images\19.jpg">
       <PackagePath>Assets\Images\19.jpg</PackagePath>
       <Modified>2020-05-06T18:56:24.671</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jorge\OneDrive\Documentos\GitHub\DSI\putamierda\ProyectoFinal_Grupo13\Assets\Images\2.jpg">
+    <AppxPackagedFile Include="C:\Users\jorge\OneDrive\Documentos\GitKraken\DSI_Grupo13\ProyectoFinal_Grupo13\Assets\Images\2.jpg">
       <PackagePath>Assets\Images\2.jpg</PackagePath>
       <Modified>2020-05-06T18:56:24.577</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jorge\OneDrive\Documentos\GitHub\DSI\putamierda\ProyectoFinal_Grupo13\Assets\Images\20.jpg">
+    <AppxPackagedFile Include="C:\Users\jorge\OneDrive\Documentos\GitKraken\DSI_Grupo13\ProyectoFinal_Grupo13\Assets\Images\20.jpg">
       <PackagePath>Assets\Images\20.jpg</PackagePath>
       <Modified>2020-05-06T18:56:24.676</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jorge\OneDrive\Documentos\GitHub\DSI\putamierda\ProyectoFinal_Grupo13\Assets\Images\3.jpg">
+    <AppxPackagedFile Include="C:\Users\jorge\OneDrive\Documentos\GitKraken\DSI_Grupo13\ProyectoFinal_Grupo13\Assets\Images\3.jpg">
       <PackagePath>Assets\Images\3.jpg</PackagePath>
       <Modified>2020-05-06T18:56:24.582</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jorge\OneDrive\Documentos\GitHub\DSI\putamierda\ProyectoFinal_Grupo13\Assets\Images\4.jpg">
+    <AppxPackagedFile Include="C:\Users\jorge\OneDrive\Documentos\GitKraken\DSI_Grupo13\ProyectoFinal_Grupo13\Assets\Images\4.jpg">
       <PackagePath>Assets\Images\4.jpg</PackagePath>
       <Modified>2020-05-06T18:56:24.587</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jorge\OneDrive\Documentos\GitHub\DSI\putamierda\ProyectoFinal_Grupo13\Assets\Images\5.jpg">
+    <AppxPackagedFile Include="C:\Users\jorge\OneDrive\Documentos\GitKraken\DSI_Grupo13\ProyectoFinal_Grupo13\Assets\Images\5.jpg">
       <PackagePath>Assets\Images\5.jpg</PackagePath>
       <Modified>2020-05-06T18:56:24.592</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jorge\OneDrive\Documentos\GitHub\DSI\putamierda\ProyectoFinal_Grupo13\Assets\Images\6.jpg">
+    <AppxPackagedFile Include="C:\Users\jorge\OneDrive\Documentos\GitKraken\DSI_Grupo13\ProyectoFinal_Grupo13\Assets\Images\6.jpg">
       <PackagePath>Assets\Images\6.jpg</PackagePath>
       <Modified>2020-05-06T18:56:24.597</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jorge\OneDrive\Documentos\GitHub\DSI\putamierda\ProyectoFinal_Grupo13\Assets\Images\7.jpg">
+    <AppxPackagedFile Include="C:\Users\jorge\OneDrive\Documentos\GitKraken\DSI_Grupo13\ProyectoFinal_Grupo13\Assets\Images\7.jpg">
       <PackagePath>Assets\Images\7.jpg</PackagePath>
       <Modified>2020-05-06T18:56:24.602</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jorge\OneDrive\Documentos\GitHub\DSI\putamierda\ProyectoFinal_Grupo13\Assets\Images\8.jpg">
+    <AppxPackagedFile Include="C:\Users\jorge\OneDrive\Documentos\GitKraken\DSI_Grupo13\ProyectoFinal_Grupo13\Assets\Images\8.jpg">
       <PackagePath>Assets\Images\8.jpg</PackagePath>
       <Modified>2020-05-06T18:56:24.607</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jorge\OneDrive\Documentos\GitHub\DSI\putamierda\ProyectoFinal_Grupo13\Assets\Images\9.jpg">
+    <AppxPackagedFile Include="C:\Users\jorge\OneDrive\Documentos\GitKraken\DSI_Grupo13\ProyectoFinal_Grupo13\Assets\Images\9.jpg">
       <PackagePath>Assets\Images\9.jpg</PackagePath>
       <Modified>2020-05-06T18:56:24.612</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jorge\OneDrive\Documentos\GitHub\DSI\putamierda\ProyectoFinal_Grupo13\Assets\Madrid.bmp">
-      <PackagePath>Assets\Madrid.bmp</PackagePath>
-      <Modified>2020-05-04T08:49:04.664</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jorge\OneDrive\Documentos\GitHub\DSI\putamierda\ProyectoFinal_Grupo13\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\jorge\OneDrive\Documentos\GitKraken\DSI_Grupo13\ProyectoFinal_Grupo13\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
       <Modified>2020-05-07T13:21:29.200</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jorge\OneDrive\Documentos\GitHub\DSI\putamierda\ProyectoFinal_Grupo13\bin\x86\Debug\ProyectoFinal_Grupo13.xr.xml">
+    <AppxPackagedFile Include="C:\Users\jorge\OneDrive\Documentos\GitKraken\DSI_Grupo13\ProyectoFinal_Grupo13\bin\x86\Debug\ProyectoFinal_Grupo13.xr.xml">
       <PackagePath>ProyectoFinal_Grupo13.xr.xml</PackagePath>
-      <Modified>2020-05-07T14:05:05.832</Modified>
+      <Modified>2020-05-11T14:58:14.530</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jorge\OneDrive\Documentos\GitHub\DSI\putamierda\ProyectoFinal_Grupo13\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\jorge\OneDrive\Documentos\GitKraken\DSI_Grupo13\ProyectoFinal_Grupo13\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2020-05-07T14:05:05.861</Modified>
+      <Modified>2020-05-11T15:02:00.587</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jorge\OneDrive\Documentos\GitHub\DSI\putamierda\ProyectoFinal_Grupo13\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\jorge\OneDrive\Documentos\GitKraken\DSI_Grupo13\ProyectoFinal_Grupo13\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2020-05-07T14:05:05.861</Modified>
+      <Modified>2020-05-11T15:02:00.587</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jorge\OneDrive\Documentos\GitHub\DSI\putamierda\ProyectoFinal_Grupo13\bin\x86\Debug\Contrataciones.xbf">
+    <AppxPackagedFile Include="C:\Users\jorge\OneDrive\Documentos\GitKraken\DSI_Grupo13\ProyectoFinal_Grupo13\bin\x86\Debug\Contrataciones.xbf">
       <PackagePath>Contrataciones.xbf</PackagePath>
-      <Modified>2020-05-07T14:05:05.862</Modified>
+      <Modified>2020-05-11T15:02:00.587</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jorge\OneDrive\Documentos\GitHub\DSI\putamierda\ProyectoFinal_Grupo13\bin\x86\Debug\Map.xbf">
+    <AppxPackagedFile Include="C:\Users\jorge\OneDrive\Documentos\GitKraken\DSI_Grupo13\ProyectoFinal_Grupo13\bin\x86\Debug\Map.xbf">
       <PackagePath>Map.xbf</PackagePath>
-      <Modified>2020-05-07T14:05:05.862</Modified>
+      <Modified>2020-05-11T15:02:00.587</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
       <Modified>2019-03-18T16:33:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jorge\OneDrive\Documentos\GitHub\DSI\putamierda\ProyectoFinal_Grupo13\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\jorge\OneDrive\Documentos\GitKraken\DSI_Grupo13\ProyectoFinal_Grupo13\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2020-05-07T14:05:06.464</Modified>
+      <Modified>2020-05-07T14:09:08.085</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jorge\OneDrive\Documentos\GitHub\DSI\putamierda\ProyectoFinal_Grupo13\bin\x86\Debug\Core\ProyectoFinal_Grupo13.exe">
+    <AppxPackagedFile Include="C:\Users\jorge\OneDrive\Documentos\GitKraken\DSI_Grupo13\ProyectoFinal_Grupo13\bin\x86\Debug\Core\ProyectoFinal_Grupo13.exe">
       <PackagePath>ProyectoFinal_Grupo13.exe</PackagePath>
-      <Modified>2020-05-07T14:05:07.265</Modified>
+      <Modified>2020-05-11T15:02:01.238</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

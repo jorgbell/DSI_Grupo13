@@ -38,7 +38,8 @@
         <StackPanel>
             <TextBlock Grid.Row="0" Grid.Column="0" Text="1 000 000 $" FontSize="30"/>
             <TextBlock Grid.Row="0" Grid.Column="0" Text="20/04/2020" FontSize="30"/>
-            <Image Source="Assets/istockphoto-1085629558-1024x1024.jpg" Stretch="Fill" Width="150" HorizontalAlignment="Left" Height="60"/>
+            <Image Source="Assets/istockphoto-1085629558-1024x1024.jpg" Stretch="Fill" Width="155" HorizontalAlignment="Left" Height="60"/>
+
         </StackPanel>
         <TextBlock Grid.Row="2" Text="Espacio para notificaciones" FontSize="20"/>
         <ScrollViewer x:ConnectionId='6' x:Name="MainImagenScroller"

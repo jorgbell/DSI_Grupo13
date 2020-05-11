@@ -168,6 +168,7 @@ namespace ProyectoFinal_Grupo13
         {
             VMDron Sel = e.ClickedItem as VMDron;
             SelMos = Sel.Id;
+            this.Frame.Navigate(typeof(Contrataciones));
         }
 
         private void Button_ClearSelection(object sender, RoutedEventArgs e)

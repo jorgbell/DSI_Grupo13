@@ -8157,11 +8157,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jorge\\OneDrive\\Documentos\\GitHub\\DSI\\putamierda\\ProyectoFinal_Grupo13\\ProyectoFinal_Grupo13.csproj",
+      "projectUniqueName": "C:\\Users\\jorge\\OneDrive\\Documentos\\GitKraken\\DSI_Grupo13\\ProyectoFinal_Grupo13\\ProyectoFinal_Grupo13.csproj",
       "projectName": "ProyectoFinal_Grupo13",
-      "projectPath": "C:\\Users\\jorge\\OneDrive\\Documentos\\GitHub\\DSI\\putamierda\\ProyectoFinal_Grupo13\\ProyectoFinal_Grupo13.csproj",
+      "projectPath": "C:\\Users\\jorge\\OneDrive\\Documentos\\GitKraken\\DSI_Grupo13\\ProyectoFinal_Grupo13\\ProyectoFinal_Grupo13.csproj",
       "packagesPath": "C:\\Users\\jorge\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jorge\\OneDrive\\Documentos\\GitHub\\DSI\\putamierda\\ProyectoFinal_Grupo13\\obj\\",
+      "outputPath": "C:\\Users\\jorge\\OneDrive\\Documentos\\GitKraken\\DSI_Grupo13\\ProyectoFinal_Grupo13\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [

@@ -31,7 +31,7 @@
         <Slider HorizontalAlignment="Left" Grid.Row="1" Grid.Column="1" VerticalAlignment="Center" Width="100" Height="32" Margin="79,0,0,0"/>
         <ListView  HorizontalAlignment="Left" Margin="550,380,0,0" VerticalAlignment="Top" Width="400">
             <Button x:ConnectionId='2'  Content="Nueva Partida" FontSize="50" Width="348" HorizontalAlignment="Center"                     />
-            <Button Content="Cargar Partida" FontSize="50" Width="348" HorizontalAlignment="Center"/>
+            <Button x:ConnectionId='3' Content="Cargar Partida" FontSize="50" Width="348" HorizontalAlignment="Center"                     />
             <Button Content="Salir del juego" FontSize="50" Width="346" HorizontalAlignment="Center"/>
         </ListView>
         <TextBlock HorizontalAlignment="Left" Margin="404,213,0,0" Width="700" Text="Pizza Manager" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="100"/>
