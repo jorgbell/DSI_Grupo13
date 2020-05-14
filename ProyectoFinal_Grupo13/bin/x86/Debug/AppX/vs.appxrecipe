@@ -19,7 +19,7 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
     <LayoutDir>C:\Users\jorge\OneDrive\Documentos\GitKraken\DSI_Grupo13\ProyectoFinal_Grupo13\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>61AA910BE5361EFE5BAD49E92A3D1526354D02C22BFBAC219915B0DE78B3FEFC</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>5564DDCAACF1C28E93F02AB8938443602C494FFB029F18F31D21011CC8640781</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>bb8bb4c3-e161-4a75-bc82-ac2ea29f6945_1.0.0.0_x86__619vkkdqjhexe</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>bb8bb4c3-e161-4a75-bc82-ac2ea29f6945_619vkkdqjhexe!App</RegisteredUserModeAppID>
     <RegisteredPackageID>bb8bb4c3-e161-4a75-bc82-ac2ea29f6945</RegisteredPackageID>
@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\jorge\OneDrive\Documentos\GitKraken\DSI_Grupo13\ProyectoFinal_Grupo13\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-05-11T15:02:01.245</Modified>
+      <Modified>2020-05-14T08:52:53.607</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\jorge\OneDrive\Documentos\GitKraken\DSI_Grupo13\ProyectoFinal_Grupo13\bin\x86\Debug\ProyectoFinal_Grupo13.exe">
       <PackagePath>entrypoint\ProyectoFinal_Grupo13.exe</PackagePath>
-      <Modified>2020-05-11T15:02:00.784</Modified>
+      <Modified>2020-05-14T08:52:52.910</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.9\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -48,7 +48,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jorge\OneDrive\Documentos\GitKraken\DSI_Grupo13\ProyectoFinal_Grupo13\Assets\1200px-Speaker_Icon.svg.png">
       <PackagePath>Assets\1200px-Speaker_Icon.svg.png</PackagePath>
-      <Modified>2020-05-04T08:54:24.426</Modified>
+      <Modified>2020-05-14T08:31:29.121</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jorge\OneDrive\Documentos\GitKraken\DSI_Grupo13\ProyectoFinal_Grupo13\Assets\descarga.png">
       <PackagePath>Assets\descarga.png</PackagePath>
@@ -99,6 +99,10 @@
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-01-23T18:28:59.711</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jorge\OneDrive\Documentos\GitKraken\DSI_Grupo13\ProyectoFinal_Grupo13\Assets\bg.jpg">
+      <PackagePath>Assets\bg.jpg</PackagePath>
+      <Modified>2020-05-14T07:57:00.081</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jorge\OneDrive\Documentos\GitKraken\DSI_Grupo13\ProyectoFinal_Grupo13\Assets\Images\1.jpg">
       <PackagePath>Assets\Images\1.jpg</PackagePath>
@@ -186,23 +190,23 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jorge\OneDrive\Documentos\GitKraken\DSI_Grupo13\ProyectoFinal_Grupo13\bin\x86\Debug\ProyectoFinal_Grupo13.xr.xml">
       <PackagePath>ProyectoFinal_Grupo13.xr.xml</PackagePath>
-      <Modified>2020-05-11T14:58:14.530</Modified>
+      <Modified>2020-05-14T08:47:14.551</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jorge\OneDrive\Documentos\GitKraken\DSI_Grupo13\ProyectoFinal_Grupo13\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2020-05-11T15:02:00.587</Modified>
+      <Modified>2020-05-14T08:52:52.625</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jorge\OneDrive\Documentos\GitKraken\DSI_Grupo13\ProyectoFinal_Grupo13\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2020-05-11T15:02:00.587</Modified>
+      <Modified>2020-05-14T08:52:52.626</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jorge\OneDrive\Documentos\GitKraken\DSI_Grupo13\ProyectoFinal_Grupo13\bin\x86\Debug\Contrataciones.xbf">
       <PackagePath>Contrataciones.xbf</PackagePath>
-      <Modified>2020-05-11T15:02:00.587</Modified>
+      <Modified>2020-05-14T08:52:52.626</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jorge\OneDrive\Documentos\GitKraken\DSI_Grupo13\ProyectoFinal_Grupo13\bin\x86\Debug\Map.xbf">
       <PackagePath>Map.xbf</PackagePath>
-      <Modified>2020-05-11T15:02:00.587</Modified>
+      <Modified>2020-05-14T08:52:52.626</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -210,11 +214,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jorge\OneDrive\Documentos\GitKraken\DSI_Grupo13\ProyectoFinal_Grupo13\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2020-05-07T14:09:08.085</Modified>
+      <Modified>2020-05-14T08:04:40.911</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jorge\OneDrive\Documentos\GitKraken\DSI_Grupo13\ProyectoFinal_Grupo13\bin\x86\Debug\Core\ProyectoFinal_Grupo13.exe">
       <PackagePath>ProyectoFinal_Grupo13.exe</PackagePath>
-      <Modified>2020-05-11T15:02:01.238</Modified>
+      <Modified>2020-05-14T08:52:53.598</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

@@ -29,9 +29,14 @@ namespace ProyectoFinal_Grupo13
 Windows.UI.Xaml.Navigation.NavigationCacheMode.Enabled;
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void New_Game(object sender, RoutedEventArgs e)
         {
             this.Frame.Navigate(typeof(Map));
+        }
+
+        private void Close_App(object sender, RoutedEventArgs e)
+        {
+            Application.Current.Exit();
         }
     }
 }

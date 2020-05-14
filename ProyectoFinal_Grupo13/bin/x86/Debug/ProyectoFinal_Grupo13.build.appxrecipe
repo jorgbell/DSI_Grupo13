@@ -76,6 +76,9 @@
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jorge\OneDrive\Documentos\GitKraken\DSI_Grupo13\ProyectoFinal_Grupo13\Assets\bg.jpg">
+      <PackagePath>Assets\bg.jpg</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jorge\OneDrive\Documentos\GitKraken\DSI_Grupo13\ProyectoFinal_Grupo13\Assets\Images\1.jpg">
       <PackagePath>Assets\Images\1.jpg</PackagePath>
     </AppxPackagedFile>
