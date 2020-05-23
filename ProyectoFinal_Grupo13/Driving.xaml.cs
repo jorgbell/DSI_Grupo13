@@ -38,5 +38,10 @@ namespace ProyectoFinal_Grupo13
         {
             Application.Current.Exit();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(Map));
+        }
     }
 }
