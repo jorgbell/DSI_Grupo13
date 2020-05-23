@@ -35,21 +35,22 @@
       <RootEvent Name="PointerMoved" />
       <RootEvent Name="PointerReleased" />
     </RootType>
-    <RootType FullName="ProyectoFinal_Grupo13.Driving" />
-    <RootType FullName="Windows.UI.Xaml.Controls.RowDefinition">
-      <RootProperty Name="Height" />
-    </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Button">
       <RootProperty Name="Background" />
+      <RootProperty Name="Foreground" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Content" />
       <RootProperty Name="Height" />
       <RootProperty Name="Width" />
-      <RootProperty Name="Content" />
       <RootProperty Name="RenderTransformOrigin" />
       <RootProperty Name="RenderTransform" />
-      <RootProperty Name="Foreground" />
       <RootProperty Name="FontSize" />
       <RootProperty Name="HorizontalAlignment" />
       <RootEvent Name="Click" />
+    </RootType>
+    <RootType FullName="ProyectoFinal_Grupo13.Driving" />
+    <RootType FullName="Windows.UI.Xaml.Controls.RowDefinition">
+      <RootProperty Name="Height" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Slider">
       <RootProperty Name="Background" />

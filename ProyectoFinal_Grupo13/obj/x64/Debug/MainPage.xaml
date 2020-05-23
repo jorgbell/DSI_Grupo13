@@ -17,7 +17,7 @@
 
         <Image HorizontalAlignment="Left" VerticalAlignment="Top" Source="Assets\bg.jpg" Stretch="UniformToFill" Margin="-540,-225,0,0" Grid.ColumnSpan="2" Grid.RowSpan="2" Height="1451" Width="2472"/>
         <Button Background="Transparent" Grid.Row="1" Height="143" Width="150">
-            <Image Source="Assets\discord_icon_130958.png" Grid.Row="1" VerticalAlignment="Center"/>
+            <Image Source="Assets\discord_icon_130958.png" Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Left" Width="130"/>
         </Button>
         <Button  Background="Transparent" Grid.Row="1" RenderTransformOrigin="0.5,0.5" Height="143" Width="150">
             <Button.RenderTransform>

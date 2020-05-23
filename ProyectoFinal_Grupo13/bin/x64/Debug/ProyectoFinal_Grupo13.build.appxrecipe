@@ -388,6 +388,9 @@
     <AppxPackagedFile Include="C:\Users\Tomás López\Desktop\Universidad\Segundo\TPV\DSI_Grupo13\ProyectoFinal_Grupo13\Assets\Madrid.png">
       <PackagePath>Assets\Madrid.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tomás López\Desktop\Universidad\Segundo\TPV\DSI_Grupo13\ProyectoFinal_Grupo13\Assets\ReturnButton.png">
+      <PackagePath>Assets\ReturnButton.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Tomás López\Desktop\Universidad\Segundo\TPV\DSI_Grupo13\ProyectoFinal_Grupo13\Assets\Velocimetro.png">
       <PackagePath>Assets\Velocimetro.png</PackagePath>
     </AppxPackagedFile>
