@@ -26,7 +26,8 @@ namespace ProyectoFinal_Grupo13
         {
             this.InitializeComponent();
             this.NavigationCacheMode =
-Windows.UI.Xaml.Navigation.NavigationCacheMode.Enabled;
+            Windows.UI.Xaml.Navigation.NavigationCacheMode.Enabled;
+            ElementSoundPlayer.State = ElementSoundPlayerState.On;
         }
 
         private void New_Game(object sender, RoutedEventArgs e)

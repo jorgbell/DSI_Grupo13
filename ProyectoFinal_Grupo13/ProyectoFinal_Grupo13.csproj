@@ -119,6 +119,9 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Driving.xaml.cs">
+      <DependentUpon>Driving.xaml</DependentUpon>
+    </Compile>
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
@@ -140,6 +143,7 @@
     <Content Include="Assets\bg.jpg" />
     <Content Include="Assets\descarga.png" />
     <Content Include="Assets\discord_icon_130958.png" />
+    <Content Include="Assets\FlameIcon.png" />
     <Content Include="Assets\iconfinder-twitter-4555883_121368.png" />
     <Content Include="Assets\Images\1.jpg" />
     <Content Include="Assets\Images\10.jpg" />
@@ -162,7 +166,9 @@
     <Content Include="Assets\Images\8.jpg" />
     <Content Include="Assets\Images\9.jpg" />
     <Content Include="Assets\Madrid.png" />
+    <Content Include="Assets\Pizzero.jpeg" />
     <Content Include="Assets\PlayPause.jpg" />
+    <Content Include="Assets\Velocimetro.png" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />
@@ -177,6 +183,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Page Include="Driving.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="MainPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>

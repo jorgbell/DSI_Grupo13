@@ -1,0 +1,101 @@
+﻿<Page x:ConnectionId='1'
+    x:Class="ProyectoFinal_Grupo13.Map"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ProyectoFinal_Grupo13"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Page.Resources>
+        <DataTemplate x:Key="ImageGridView_DefaultItemTemplate"
+                                               >
+            <Grid x:ConnectionId='2' Height="100" Width="300">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="120"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+                <Image x:ConnectionId='3'                          Grid.Column="0" VerticalAlignment="Center" Width="120"/>
+                <TextBlock x:ConnectionId='4'                        FontSize="20" Grid.Column="1" VerticalAlignment="Center"/>
+            </Grid>
+
+        </DataTemplate>
+    </Page.Resources>
+
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="4*"/>
+            <ColumnDefinition Width="1*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="10*"/>
+            <RowDefinition Height="2*"/>
+        </Grid.RowDefinitions>
+        <StackPanel>
+            <TextBlock Grid.Row="0" Grid.Column="0" Text="1 000 000 $" FontSize="30"/>
+            <TextBlock Grid.Row="0" Grid.Column="0" Text="20/04/2020" FontSize="30"/>
+            <Image Source="Assets/PlayPause.jpg" Stretch="Fill" Width="155" HorizontalAlignment="Left" Height="60"/>
+
+        </StackPanel>
+        <TextBlock Grid.Row="2" Text="Espacio para notificaciones" FontSize="20"/>
+        <ScrollViewer x:ConnectionId='5' x:Name="MainImagenScroller"
+                      Grid.Column="1"
+                      Grid.Row= "0"
+                      Grid.RowSpan="2"
+                      ZoomMode="Enabled"
+                      Margin="0 ,100, 50, 100"
+                      HorizontalScrollMode="Auto"
+                      HorizontalAlignment="Stretch" 
+                      VerticalAlignment="Stretch">
+
+            <Grid>
+                <Image x:ConnectionId='8' x:Name="targetImage"
+                       Source="Assets/Madrid.png"
+                       Stretch="Fill"
+                                                           
+                                                       
+                                                             
+                        />
+
+                <Canvas x:ConnectionId='9' x:Name="MiCanvas"
+                        Grid.Row="1" Grid.Column="1"
+                                                        
+                                                            
+                                                              
+                        XYFocusKeyboardNavigation="Enabled"
+                        XYFocusDownNavigationStrategy="RectilinearDistance"
+                        XYFocusUpNavigationStrategy="RectilinearDistance"
+                        XYFocusLeftNavigationStrategy="RectilinearDistance"
+                        XYFocusRightNavigationStrategy="RectilinearDistance"
+                        TabFocusNavigation="Once"
+                        AllowFocusOnInteraction="True"
+                                                   >
+
+                </Canvas>
+            </Grid>
+        </ScrollViewer>
+
+
+        <Image x:ConnectionId='6' x:Name="SelIma" Source="" Stretch="Fill" Grid.Row="2" Grid.Column="2"></Image>
+
+        <ListView x:ConnectionId='7' x:Name="itemListView"
+                  Grid.Row="0" Grid.Column="2"
+                  Grid.RowSpan="3"
+                  Background="LightGray"
+                                                    
+                  ItemTemplate="{StaticResource ImageGridView_DefaultItemTemplate}"
+                  IsItemClickEnabled="True"
+                  SelectionMode="Single"
+                  IsFocusEngagementEnabled="True"
+                  VerticalAlignment="Stretch"
+                                                     
+                                                                  >
+        </ListView>
+
+    </Grid>
+</Page>
+

@@ -1,0 +1,40 @@
+﻿<Page
+    x:Class="ProyectoFinal_Grupo13.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ProyectoFinal_Grupo13"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="3*"/>
+            <RowDefinition Height="0.5*"/>
+        </Grid.RowDefinitions>
+
+        <Image HorizontalAlignment="Left" VerticalAlignment="Top" Source="Assets\bg.jpg" Stretch="UniformToFill" Margin="-540,-225,0,0" Grid.ColumnSpan="2" Grid.RowSpan="2" Height="1451" Width="2472"/>
+        <Button Background="Transparent" Grid.Row="1" Height="143" Width="150">
+            <Image Source="Assets\discord_icon_130958.png" Grid.Row="1" VerticalAlignment="Center"/>
+        </Button>
+        <Button  Background="Transparent" Grid.Row="1" RenderTransformOrigin="0.5,0.5" Height="143" Width="150">
+            <Button.RenderTransform>
+                <CompositeTransform TranslateX="155"/>
+            </Button.RenderTransform>
+            <Image Source="Assets\iconfinder-twitter-4555883_121368.png"  Grid.Row="1" VerticalAlignment="Center"/>
+        </Button>
+        <Image Source="Assets\1200px-Speaker_Icon.svg.png"  HorizontalAlignment="Left" Height="69"  Grid.Row="1" VerticalAlignment="Center" Width="73" Margin="1235,0,0,0"/>
+        <Slider Background="White" HorizontalAlignment="Left" Grid.Row="1" VerticalAlignment="Center" Width="100" Height="32" Margin="1309,0,0,0"/>
+
+        <ListView  HorizontalAlignment="Left" Margin="714,440,0,0" VerticalAlignment="Top" IsTapEnabled="True" TabNavigation="Local">
+            <Button x:ConnectionId='2' Background="Transparent" Foreground="White" Content="Nueva Partida" FontSize="50" Width="348" HorizontalAlignment="Center"                 />
+            <Button x:ConnectionId='3' Background="Transparent" Foreground="White" Content="Cargar Partida" FontSize="50" Width="348" HorizontalAlignment="Center"                 />
+            <Button x:ConnectionId='4' Background="Transparent" Foreground="White" Content="Salir del juego" FontSize="50" Width="346" HorizontalAlignment="Center"                  />
+        </ListView>
+        <TextBlock Foreground="White" HorizontalAlignment="Left" Margin="592,295,0,0" Width="700" Text="Pizza Manager" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="100">
+        </TextBlock>
+    </Grid>
+</Page>
+
