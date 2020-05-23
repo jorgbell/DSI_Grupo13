@@ -20,8 +20,10 @@
                 <TextBlock Text="{x:Bind Id}" FontSize="50" VerticalAlignment="Center"/>
                 <Image Source="{x:Bind Imagen}" Grid.Column="1" VerticalAlignment="Center" Width="300"/>
                 <TextBlock Text="{x:Bind Nombre}" FontSize="60" Grid.Column="2" VerticalAlignment="Top" HorizontalAlignment="Center"/>
-                <TextBlock Text="{x:Bind Salario}" FontSize="50" Grid.Column="2" VerticalAlignment="Center" HorizontalAlignment="Center"/>
                 <TextBlock Text="{x:Bind Libres}" FontSize="50" Grid.Column="2" VerticalAlignment="Bottom" HorizontalAlignment="Center"/>
+                <StackPanel x:Name="inputPanel" Grid.Column="2" VerticalAlignment="Center" HorizontalAlignment="Center">
+                    <TextBox x:Name="nameInput" Text="{x:Bind Salario}" FontSize="50" />
+                </StackPanel>
             </Grid>
         </DataTemplate>
     </Page.Resources>

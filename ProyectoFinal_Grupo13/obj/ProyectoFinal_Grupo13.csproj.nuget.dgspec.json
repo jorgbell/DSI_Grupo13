@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Tomás López\\Desktop\\Universidad\\Segundo\\TPV\\DSI_Grupo13\\ProyectoFinal_Grupo13\\ProyectoFinal_Grupo13.csproj": {}
+    "D:\\Otros\\Uni\\DSI_Grupo13\\ProyectoFinal_Grupo13\\ProyectoFinal_Grupo13.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Tomás López\\Desktop\\Universidad\\Segundo\\TPV\\DSI_Grupo13\\ProyectoFinal_Grupo13\\ProyectoFinal_Grupo13.csproj": {
+    "D:\\Otros\\Uni\\DSI_Grupo13\\ProyectoFinal_Grupo13\\ProyectoFinal_Grupo13.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Tomás López\\Desktop\\Universidad\\Segundo\\TPV\\DSI_Grupo13\\ProyectoFinal_Grupo13\\ProyectoFinal_Grupo13.csproj",
+        "projectUniqueName": "D:\\Otros\\Uni\\DSI_Grupo13\\ProyectoFinal_Grupo13\\ProyectoFinal_Grupo13.csproj",
         "projectName": "ProyectoFinal_Grupo13",
-        "projectPath": "C:\\Users\\Tomás López\\Desktop\\Universidad\\Segundo\\TPV\\DSI_Grupo13\\ProyectoFinal_Grupo13\\ProyectoFinal_Grupo13.csproj",
-        "packagesPath": "C:\\Users\\Tomás López\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Tomás López\\Desktop\\Universidad\\Segundo\\TPV\\DSI_Grupo13\\ProyectoFinal_Grupo13\\obj\\",
+        "projectPath": "D:\\Otros\\Uni\\DSI_Grupo13\\ProyectoFinal_Grupo13\\ProyectoFinal_Grupo13.csproj",
+        "packagesPath": "C:\\Users\\Eva\\.nuget\\packages\\",
+        "outputPath": "D:\\Otros\\Uni\\DSI_Grupo13\\ProyectoFinal_Grupo13\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Tomás López\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Eva\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
