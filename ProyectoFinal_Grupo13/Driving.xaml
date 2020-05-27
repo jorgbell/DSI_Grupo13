@@ -10,15 +10,24 @@
 
 
     <Grid>
-        <Image HorizontalAlignment="Left" Height="1001" VerticalAlignment="Center" Width="1542" Stretch="Fill" Source="Assets\Pizzero.jpeg"/>
-        <Image HorizontalAlignment="Left" Height="345" Margin="0,517,0,0" VerticalAlignment="Top" Width="345" Source="Assets\Velocimetro.png"/>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="3*"/>
+        </Grid.ColumnDefinitions>
+
+        <Image HorizontalAlignment="Left" Height="1001" VerticalAlignment="Center" Width="1542" Stretch="UniformToFill" Grid.ColumnSpan="2" Grid.RowSpan="2" Source="Assets\Pizzero.jpeg"/>
+        <Image HorizontalAlignment="Center"  VerticalAlignment="Bottom" Grid.Row="1" Height="345" Width="345" Source="Assets\Velocimetro.png"/>
         <Image HorizontalAlignment="Left" Height="124" Margin="702,0,0,0" VerticalAlignment="Top" Width="112" Source="Assets\FlameIcon.png"/>
         <Button Background="Gray" Foreground ="White" Click="Button_Click" VerticalAlignment="Top">
             <Image Source="Assets\ReturnButton.png" Width="83" Height="83"/>
         </Button>
-        <Button Background="Transparent" VerticalAlignment="Bottom" HorizontalAlignment="Right">
+        <Button Background="Transparent" Grid.Row="1" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Right">
             <Image Source="Assets\Pedal.png" Width="200" Height="200"/>
         </Button>
-        <TextBlock x:Name="Vel" HorizontalAlignment="Left" Height="29" TextAlignment="End" FontSize="26" Margin="121,744,0,227" Text="Hola" TextWrapping="Wrap" Width="113"/>
+        <TextBlock x:Name="Vel" Grid.Row="1" HorizontalAlignment="Center" Height="29" Margin="0,120,0,0" TextAlignment="End" FontSize="26" Text="Hola" TextWrapping="Wrap" Width="113"/>
     </Grid>
 </Page>
