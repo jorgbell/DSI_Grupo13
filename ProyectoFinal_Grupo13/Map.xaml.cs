@@ -95,7 +95,6 @@ namespace ProyectoFinal_Grupo13
                     MiCanvas.Children.Last().SetValue(Canvas.LeftProperty, VMitem.X - 25);
                     MiCanvas.Children.Last().SetValue(Canvas.TopProperty, VMitem.Y - 25);
                 }
-            
             base.OnNavigatedTo(e);
             GameTimerSetup();
         }
@@ -184,6 +183,7 @@ namespace ProyectoFinal_Grupo13
             //MuestraInfo();
             circulo_Transform.TranslateX = Sel.X - Circulo.ActualWidth / 2;
             circulo_Transform.TranslateY = Sel.Y - Circulo.ActualHeight / 2;
+            Circulo.Visibility = Visibility.Visible;
         }
 
         private void Button_ClearSelection(object sender, RoutedEventArgs e)

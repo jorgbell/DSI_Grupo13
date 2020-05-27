@@ -81,7 +81,7 @@
                         TabFocusNavigation="Once"
                         AllowFocusOnInteraction="True"
                         KeyDown="MiCanvas_KeyDown" >
-                    <Image x:Name="Circulo" Source="Assets/Circulo.png">
+                    <Image x:Name="Circulo" Source="Assets/Circulo.png" Visibility="Collapsed">
                         <Image.RenderTransform>
                             <CompositeTransform x:Name="circulo_Transform">
                                 </CompositeTransform>
