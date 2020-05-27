@@ -1,1 +1,1 @@
-C:\Users\David\Desktop\GitHub\DSI_Grupo13\ProyectoFinal_Grupo13\ProyectoFinal_Grupo13.csproj;x64
+D:\Otros\Uni\DSI_Grupo13\ProyectoFinal_Grupo13\ProyectoFinal_Grupo13.csproj;x64

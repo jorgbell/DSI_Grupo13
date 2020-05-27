@@ -14,8 +14,9 @@ namespace ProyectoFinal_Grupo13
         public string Nombre { get; set; }
         public string Imagen { get; set; }
         //public Image Img;
-        public string Explicacion { get; set; }
-        public estados Estado { get; set; }
+        public string Estado { get; set; }
+        public string Salario { get; set; }
+        public string Libres { get; set; }
         public int X { get; set; }
         public int Y { get; set; }
         public int RX;
@@ -28,14 +29,15 @@ namespace ProyectoFinal_Grupo13
     public class Model
     {
         public static List<Dron> Drones = new List<Dron>()
-        {                       
+        {
             new Dron()
             {
                 Id = 0,
-                Nombre = "Feliz",
+                Nombre = "Mengano",
                 Imagen = "Assets\\Images\\1.jpg",
-                Explicacion = @"Explicación Dron1 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer id facilisis lectus. Cras nec convallis ante, quis pulvinar tellus. Integer dictum accumsan pulvinar. Pellentesque eget enim sodales sapien vestibulum consequat. Maecenas eu sapien ac urna aliquam dictum. Nullam eget mattis metus. Donec pharetra, tellus in mattis tincidunt, magna ipsum gravida nibh, vitae lobortis ante odio vel quam.",
-                Estado = Dron.estados.Aterrizado,
+                Estado = "Feliz",
+                Salario = "700$ / mes",
+                Libres = "Lunes y Martes",
                 X = 10,
                 Y = 10,
                 RX =100,
@@ -44,10 +46,11 @@ namespace ProyectoFinal_Grupo13
             new Dron()
             {
                 Id = 1,
-                Nombre = "Enfadado",
+                Nombre = "Fulano",
                 Imagen = "Assets\\Images\\2.jpg",
-                Explicacion = @"Explicación Dron2 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer id facilisis lectus. Cras nec convallis ante, quis pulvinar tellus. Integer dictum accumsan pulvinar. Pellentesque eget enim sodales sapien vestibulum consequat. Maecenas eu sapien ac urna aliquam dictum. Nullam eget mattis metus. Donec pharetra, tellus in mattis tincidunt, magna ipsum gravida nibh, vitae lobortis ante odio vel quam.",
-                Estado = Dron.estados.Aterrizado,
+                Estado = "Enfadado",
+                Salario = "900$ / mes",
+                Libres = "Domingos",
                 X = 50,
                 Y = 50,
                 RX =150,
@@ -56,10 +59,11 @@ namespace ProyectoFinal_Grupo13
             new Dron()
             {
                 Id = 2,
-                Nombre = "Triste",
+                Nombre = "Butano",
                 Imagen = "Assets\\Images\\3.jpg",
-                Explicacion = @"Explicación Dron3 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer id facilisis lectus. Cras nec convallis ante, quis pulvinar tellus. Integer dictum accumsan pulvinar. Pellentesque eget enim sodales sapien vestibulum consequat. Maecenas eu sapien ac urna aliquam dictum. Nullam eget mattis metus. Donec pharetra, tellus in mattis tincidunt, magna ipsum gravida nibh, vitae lobortis ante odio vel quam.",
-                Estado = Dron.estados.Aterrizado,
+                Estado = "Triste",
+                Salario = "700$ / mes",
+                Libres = "Viernes y Sabado",
                 X = 100,
                 Y = 100,
                 RX =50,
@@ -68,10 +72,11 @@ namespace ProyectoFinal_Grupo13
             new Dron()
             {
                 Id = 3,
-                Nombre = "Normal",
+                Nombre = "Gustavo",
                 Imagen = "Assets\\Images\\4.jpg",
-                Explicacion = @"Explicación Dron4 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer id facilisis lectus. Cras nec convallis ante, quis pulvinar tellus. Integer dictum accumsan pulvinar. Pellentesque eget enim sodales sapien vestibulum consequat. Maecenas eu sapien ac urna aliquam dictum. Nullam eget mattis metus. Donec pharetra, tellus in mattis tincidunt, magna ipsum gravida nibh, vitae lobortis ante odio vel quam.",
-                Estado = Dron.estados.Aterrizado,
+                Estado = "Normal",
+                Salario = "500$ / mes",
+                Libres = "Martes y Jueves",
                 X = 150,
                 Y = 150,
                 RX =200,
@@ -80,10 +85,11 @@ namespace ProyectoFinal_Grupo13
             new Dron()
             {
                 Id = 4,
-                Nombre = "Feliz",
+                Nombre = "Arkano",
                 Imagen = "Assets\\Images\\5.jpg",
-                Explicacion = @"Explicación Dron5 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer id facilisis lectus. Cras nec convallis ante, quis pulvinar tellus. Integer dictum accumsan pulvinar. Pellentesque eget enim sodales sapien vestibulum consequat. Maecenas eu sapien ac urna aliquam dictum. Nullam eget mattis metus. Donec pharetra, tellus in mattis tincidunt, magna ipsum gravida nibh, vitae lobortis ante odio vel quam.",
-                Estado = Dron.estados.Aterrizado,
+                Estado = "Feliz",
+                Salario = "850$ / mes",
+                Libres = "Miercoles",
                 X = 200,
                 Y = 200,
                 RX =100,
@@ -92,10 +98,11 @@ namespace ProyectoFinal_Grupo13
             new Dron()
             {
                 Id = 5,
-                Nombre = "Encantado",
+                Nombre = "Afur",
                 Imagen = "Assets\\Images\\6.jpg",
-                Explicacion = @"Explicación Dron6 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer id facilisis lectus. Cras nec convallis ante, quis pulvinar tellus. Integer dictum accumsan pulvinar. Pellentesque eget enim sodales sapien vestibulum consequat. Maecenas eu sapien ac urna aliquam dictum. Nullam eget mattis metus. Donec pharetra, tellus in mattis tincidunt, magna ipsum gravida nibh, vitae lobortis ante odio vel quam.",
-                Estado = Dron.estados.Aterrizado,
+                Estado = "Encantado",
+                Salario = "700$ / mes",
+                Libres = "Viernes y Sabado",
                 X = 250,
                 Y = 250,
                 RX =30,
@@ -104,10 +111,11 @@ namespace ProyectoFinal_Grupo13
             new Dron()
             {
                 Id = 6,
-                Nombre = "Normal",
+                Nombre = "Steven",
                 Imagen = "Assets\\Images\\7.jpg",
-                Explicacion = @"Explicación Dron7 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer id facilisis lectus. Cras nec convallis ante, quis pulvinar tellus. Integer dictum accumsan pulvinar. Pellentesque eget enim sodales sapien vestibulum consequat. Maecenas eu sapien ac urna aliquam dictum. Nullam eget mattis metus. Donec pharetra, tellus in mattis tincidunt, magna ipsum gravida nibh, vitae lobortis ante odio vel quam.",
-                Estado = Dron.estados.Aterrizado,
+                Estado = "Normal",
+                Salario = "600$ / mes",
+                Libres = "Viernes",
                 X = 300,
                 Y = 300,
                 RX =250,
@@ -115,7 +123,7 @@ namespace ProyectoFinal_Grupo13
              },
           };
 
-      
+
         public static IList<Dron> GetAllDrones()
         {
             return Drones;

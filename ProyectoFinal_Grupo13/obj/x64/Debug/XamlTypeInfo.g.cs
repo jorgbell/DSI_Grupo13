@@ -189,49 +189,35 @@ namespace ProyectoFinal_Grupo13.ProyectoFinal_Grupo13_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[20];
+            _typeNameTable = new string[13];
             _typeNameTable[0] = "ProyectoFinal_Grupo13.Driving";
             _typeNameTable[1] = "Windows.UI.Xaml.Controls.Page";
             _typeNameTable[2] = "Windows.UI.Xaml.Controls.UserControl";
             _typeNameTable[3] = "ProyectoFinal_Grupo13.MainPage";
             _typeNameTable[4] = "ProyectoFinal_Grupo13.Contrataciones";
-            _typeNameTable[5] = "System.Collections.ObjectModel.ObservableCollection`1<ProyectoFinal_Grupo13.ViewModelEmp>";
-            _typeNameTable[6] = "System.Collections.ObjectModel.Collection`1<ProyectoFinal_Grupo13.ViewModelEmp>";
+            _typeNameTable[5] = "System.Collections.ObjectModel.ObservableCollection`1<ProyectoFinal_Grupo13.VMDron>";
+            _typeNameTable[6] = "System.Collections.ObjectModel.Collection`1<ProyectoFinal_Grupo13.VMDron>";
             _typeNameTable[7] = "Object";
-            _typeNameTable[8] = "ProyectoFinal_Grupo13.ViewModelEmp";
-            _typeNameTable[9] = "ProyectoFinal_Grupo13.Empleado";
+            _typeNameTable[8] = "ProyectoFinal_Grupo13.VMDron";
+            _typeNameTable[9] = "ProyectoFinal_Grupo13.Dron";
             _typeNameTable[10] = "Int32";
             _typeNameTable[11] = "String";
             _typeNameTable[12] = "ProyectoFinal_Grupo13.Map";
-            _typeNameTable[13] = "System.Collections.ObjectModel.ObservableCollection`1<ProyectoFinal_Grupo13.VMDron>";
-            _typeNameTable[14] = "System.Collections.ObjectModel.Collection`1<ProyectoFinal_Grupo13.VMDron>";
-            _typeNameTable[15] = "ProyectoFinal_Grupo13.VMDron";
-            _typeNameTable[16] = "ProyectoFinal_Grupo13.Dron";
-            _typeNameTable[17] = "ProyectoFinal_Grupo13.Dron.estados";
-            _typeNameTable[18] = "System.Enum";
-            _typeNameTable[19] = "System.ValueType";
 
-            _typeTable = new global::System.Type[20];
+            _typeTable = new global::System.Type[13];
             _typeTable[0] = typeof(global::ProyectoFinal_Grupo13.Driving);
             _typeTable[1] = typeof(global::Windows.UI.Xaml.Controls.Page);
             _typeTable[2] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
             _typeTable[3] = typeof(global::ProyectoFinal_Grupo13.MainPage);
             _typeTable[4] = typeof(global::ProyectoFinal_Grupo13.Contrataciones);
-            _typeTable[5] = typeof(global::System.Collections.ObjectModel.ObservableCollection<global::ProyectoFinal_Grupo13.ViewModelEmp>);
-            _typeTable[6] = typeof(global::System.Collections.ObjectModel.Collection<global::ProyectoFinal_Grupo13.ViewModelEmp>);
+            _typeTable[5] = typeof(global::System.Collections.ObjectModel.ObservableCollection<global::ProyectoFinal_Grupo13.VMDron>);
+            _typeTable[6] = typeof(global::System.Collections.ObjectModel.Collection<global::ProyectoFinal_Grupo13.VMDron>);
             _typeTable[7] = typeof(global::System.Object);
-            _typeTable[8] = typeof(global::ProyectoFinal_Grupo13.ViewModelEmp);
-            _typeTable[9] = typeof(global::ProyectoFinal_Grupo13.Empleado);
+            _typeTable[8] = typeof(global::ProyectoFinal_Grupo13.VMDron);
+            _typeTable[9] = typeof(global::ProyectoFinal_Grupo13.Dron);
             _typeTable[10] = typeof(global::System.Int32);
             _typeTable[11] = typeof(global::System.String);
             _typeTable[12] = typeof(global::ProyectoFinal_Grupo13.Map);
-            _typeTable[13] = typeof(global::System.Collections.ObjectModel.ObservableCollection<global::ProyectoFinal_Grupo13.VMDron>);
-            _typeTable[14] = typeof(global::System.Collections.ObjectModel.Collection<global::ProyectoFinal_Grupo13.VMDron>);
-            _typeTable[15] = typeof(global::ProyectoFinal_Grupo13.VMDron);
-            _typeTable[16] = typeof(global::ProyectoFinal_Grupo13.Dron);
-            _typeTable[17] = typeof(global::ProyectoFinal_Grupo13.Dron.estados);
-            _typeTable[18] = typeof(global::System.Enum);
-            _typeTable[19] = typeof(global::System.ValueType);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -269,32 +255,17 @@ namespace ProyectoFinal_Grupo13.ProyectoFinal_Grupo13_XamlTypeInfo
         private object Activate_0_Driving() { return new global::ProyectoFinal_Grupo13.Driving(); }
         private object Activate_3_MainPage() { return new global::ProyectoFinal_Grupo13.MainPage(); }
         private object Activate_4_Contrataciones() { return new global::ProyectoFinal_Grupo13.Contrataciones(); }
-        private object Activate_5_ObservableCollection() { return new global::System.Collections.ObjectModel.ObservableCollection<global::ProyectoFinal_Grupo13.ViewModelEmp>(); }
-        private object Activate_6_Collection() { return new global::System.Collections.ObjectModel.Collection<global::ProyectoFinal_Grupo13.ViewModelEmp>(); }
-        private object Activate_9_Empleado() { return new global::ProyectoFinal_Grupo13.Empleado(); }
+        private object Activate_5_ObservableCollection() { return new global::System.Collections.ObjectModel.ObservableCollection<global::ProyectoFinal_Grupo13.VMDron>(); }
+        private object Activate_6_Collection() { return new global::System.Collections.ObjectModel.Collection<global::ProyectoFinal_Grupo13.VMDron>(); }
+        private object Activate_9_Dron() { return new global::ProyectoFinal_Grupo13.Dron(); }
         private object Activate_12_Map() { return new global::ProyectoFinal_Grupo13.Map(); }
-        private object Activate_13_ObservableCollection() { return new global::System.Collections.ObjectModel.ObservableCollection<global::ProyectoFinal_Grupo13.VMDron>(); }
-        private object Activate_14_Collection() { return new global::System.Collections.ObjectModel.Collection<global::ProyectoFinal_Grupo13.VMDron>(); }
-        private object Activate_16_Dron() { return new global::ProyectoFinal_Grupo13.Dron(); }
         private void VectorAdd_5_ObservableCollection(object instance, object item)
-        {
-            var collection = (global::System.Collections.Generic.ICollection<global::ProyectoFinal_Grupo13.ViewModelEmp>)instance;
-            var newItem = (global::ProyectoFinal_Grupo13.ViewModelEmp)item;
-            collection.Add(newItem);
-        }
-        private void VectorAdd_6_Collection(object instance, object item)
-        {
-            var collection = (global::System.Collections.Generic.ICollection<global::ProyectoFinal_Grupo13.ViewModelEmp>)instance;
-            var newItem = (global::ProyectoFinal_Grupo13.ViewModelEmp)item;
-            collection.Add(newItem);
-        }
-        private void VectorAdd_13_ObservableCollection(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::ProyectoFinal_Grupo13.VMDron>)instance;
             var newItem = (global::ProyectoFinal_Grupo13.VMDron)item;
             collection.Add(newItem);
         }
-        private void VectorAdd_14_Collection(object instance, object item)
+        private void VectorAdd_6_Collection(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::ProyectoFinal_Grupo13.VMDron>)instance;
             var newItem = (global::ProyectoFinal_Grupo13.VMDron)item;
@@ -341,14 +312,14 @@ namespace ProyectoFinal_Grupo13.ProyectoFinal_Grupo13_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 5:   //  System.Collections.ObjectModel.ObservableCollection`1<ProyectoFinal_Grupo13.ViewModelEmp>
-                userType = new global::ProyectoFinal_Grupo13.ProyectoFinal_Grupo13_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Collections.ObjectModel.Collection`1<ProyectoFinal_Grupo13.ViewModelEmp>"));
+            case 5:   //  System.Collections.ObjectModel.ObservableCollection`1<ProyectoFinal_Grupo13.VMDron>
+                userType = new global::ProyectoFinal_Grupo13.ProyectoFinal_Grupo13_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Collections.ObjectModel.Collection`1<ProyectoFinal_Grupo13.VMDron>"));
                 userType.CollectionAdd = VectorAdd_5_ObservableCollection;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 6:   //  System.Collections.ObjectModel.Collection`1<ProyectoFinal_Grupo13.ViewModelEmp>
+            case 6:   //  System.Collections.ObjectModel.Collection`1<ProyectoFinal_Grupo13.VMDron>
                 userType = new global::ProyectoFinal_Grupo13.ProyectoFinal_Grupo13_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
                 userType.Activator = Activate_6_Collection;
                 userType.CollectionAdd = VectorAdd_6_Collection;
@@ -359,20 +330,23 @@ namespace ProyectoFinal_Grupo13.ProyectoFinal_Grupo13_XamlTypeInfo
                 xamlType = new global::ProyectoFinal_Grupo13.ProyectoFinal_Grupo13_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 8:   //  ProyectoFinal_Grupo13.ViewModelEmp
-                userType = new global::ProyectoFinal_Grupo13.ProyectoFinal_Grupo13_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("ProyectoFinal_Grupo13.Empleado"));
+            case 8:   //  ProyectoFinal_Grupo13.VMDron
+                userType = new global::ProyectoFinal_Grupo13.ProyectoFinal_Grupo13_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("ProyectoFinal_Grupo13.Dron"));
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 9:   //  ProyectoFinal_Grupo13.Empleado
+            case 9:   //  ProyectoFinal_Grupo13.Dron
                 userType = new global::ProyectoFinal_Grupo13.ProyectoFinal_Grupo13_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.Activator = Activate_9_Empleado;
+                userType.Activator = Activate_9_Dron;
                 userType.AddMemberName("Id");
                 userType.AddMemberName("Nombre");
                 userType.AddMemberName("Imagen");
+                userType.AddMemberName("Estado");
                 userType.AddMemberName("Salario");
                 userType.AddMemberName("Libres");
+                userType.AddMemberName("X");
+                userType.AddMemberName("Y");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
@@ -392,59 +366,6 @@ namespace ProyectoFinal_Grupo13.ProyectoFinal_Grupo13_XamlTypeInfo
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
-
-            case 13:   //  System.Collections.ObjectModel.ObservableCollection`1<ProyectoFinal_Grupo13.VMDron>
-                userType = new global::ProyectoFinal_Grupo13.ProyectoFinal_Grupo13_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Collections.ObjectModel.Collection`1<ProyectoFinal_Grupo13.VMDron>"));
-                userType.CollectionAdd = VectorAdd_13_ObservableCollection;
-                userType.SetIsReturnTypeStub();
-                xamlType = userType;
-                break;
-
-            case 14:   //  System.Collections.ObjectModel.Collection`1<ProyectoFinal_Grupo13.VMDron>
-                userType = new global::ProyectoFinal_Grupo13.ProyectoFinal_Grupo13_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.Activator = Activate_14_Collection;
-                userType.CollectionAdd = VectorAdd_14_Collection;
-                xamlType = userType;
-                break;
-
-            case 15:   //  ProyectoFinal_Grupo13.VMDron
-                userType = new global::ProyectoFinal_Grupo13.ProyectoFinal_Grupo13_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("ProyectoFinal_Grupo13.Dron"));
-                userType.SetIsLocalType();
-                xamlType = userType;
-                break;
-
-            case 16:   //  ProyectoFinal_Grupo13.Dron
-                userType = new global::ProyectoFinal_Grupo13.ProyectoFinal_Grupo13_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.Activator = Activate_16_Dron;
-                userType.AddMemberName("Id");
-                userType.AddMemberName("Nombre");
-                userType.AddMemberName("Imagen");
-                userType.AddMemberName("Explicacion");
-                userType.AddMemberName("Estado");
-                userType.AddMemberName("X");
-                userType.AddMemberName("Y");
-                userType.SetIsLocalType();
-                xamlType = userType;
-                break;
-
-            case 17:   //  ProyectoFinal_Grupo13.Dron.estados
-                userType = new global::ProyectoFinal_Grupo13.ProyectoFinal_Grupo13_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
-                userType.AddEnumValue("Aterrizado", global::ProyectoFinal_Grupo13.Dron.estados.Aterrizado);
-                userType.AddEnumValue("Autonomo", global::ProyectoFinal_Grupo13.Dron.estados.Autonomo);
-                userType.AddEnumValue("Manual", global::ProyectoFinal_Grupo13.Dron.estados.Manual);
-                userType.SetIsLocalType();
-                xamlType = userType;
-                break;
-
-            case 18:   //  System.Enum
-                userType = new global::ProyectoFinal_Grupo13.ProyectoFinal_Grupo13_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.ValueType"));
-                xamlType = userType;
-                break;
-
-            case 19:   //  System.ValueType
-                userType = new global::ProyectoFinal_Grupo13.ProyectoFinal_Grupo13_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                xamlType = userType;
-                break;
             }
             return xamlType;
         }
@@ -455,130 +376,90 @@ namespace ProyectoFinal_Grupo13.ProyectoFinal_Grupo13_XamlTypeInfo
             var that = (global::ProyectoFinal_Grupo13.Contrataciones)instance;
             return that.ListaEmpleados;
         }
-        private object get_1_Empleado_Id(object instance)
-        {
-            var that = (global::ProyectoFinal_Grupo13.Empleado)instance;
-            return that.Id;
-        }
-        private void set_1_Empleado_Id(object instance, object Value)
-        {
-            var that = (global::ProyectoFinal_Grupo13.Empleado)instance;
-            that.Id = (global::System.Int32)Value;
-        }
-        private object get_2_Empleado_Nombre(object instance)
-        {
-            var that = (global::ProyectoFinal_Grupo13.Empleado)instance;
-            return that.Nombre;
-        }
-        private void set_2_Empleado_Nombre(object instance, object Value)
-        {
-            var that = (global::ProyectoFinal_Grupo13.Empleado)instance;
-            that.Nombre = (global::System.String)Value;
-        }
-        private object get_3_Empleado_Imagen(object instance)
-        {
-            var that = (global::ProyectoFinal_Grupo13.Empleado)instance;
-            return that.Imagen;
-        }
-        private void set_3_Empleado_Imagen(object instance, object Value)
-        {
-            var that = (global::ProyectoFinal_Grupo13.Empleado)instance;
-            that.Imagen = (global::System.String)Value;
-        }
-        private object get_4_Empleado_Salario(object instance)
-        {
-            var that = (global::ProyectoFinal_Grupo13.Empleado)instance;
-            return that.Salario;
-        }
-        private void set_4_Empleado_Salario(object instance, object Value)
-        {
-            var that = (global::ProyectoFinal_Grupo13.Empleado)instance;
-            that.Salario = (global::System.String)Value;
-        }
-        private object get_5_Empleado_Libres(object instance)
-        {
-            var that = (global::ProyectoFinal_Grupo13.Empleado)instance;
-            return that.Libres;
-        }
-        private void set_5_Empleado_Libres(object instance, object Value)
-        {
-            var that = (global::ProyectoFinal_Grupo13.Empleado)instance;
-            that.Libres = (global::System.String)Value;
-        }
-        private object get_6_Map_ListaDrones(object instance)
-        {
-            var that = (global::ProyectoFinal_Grupo13.Map)instance;
-            return that.ListaDrones;
-        }
-        private object get_7_Dron_Id(object instance)
+        private object get_1_Dron_Id(object instance)
         {
             var that = (global::ProyectoFinal_Grupo13.Dron)instance;
             return that.Id;
         }
-        private void set_7_Dron_Id(object instance, object Value)
+        private void set_1_Dron_Id(object instance, object Value)
         {
             var that = (global::ProyectoFinal_Grupo13.Dron)instance;
             that.Id = (global::System.Int32)Value;
         }
-        private object get_8_Dron_Nombre(object instance)
+        private object get_2_Dron_Nombre(object instance)
         {
             var that = (global::ProyectoFinal_Grupo13.Dron)instance;
             return that.Nombre;
         }
-        private void set_8_Dron_Nombre(object instance, object Value)
+        private void set_2_Dron_Nombre(object instance, object Value)
         {
             var that = (global::ProyectoFinal_Grupo13.Dron)instance;
             that.Nombre = (global::System.String)Value;
         }
-        private object get_9_Dron_Imagen(object instance)
+        private object get_3_Dron_Imagen(object instance)
         {
             var that = (global::ProyectoFinal_Grupo13.Dron)instance;
             return that.Imagen;
         }
-        private void set_9_Dron_Imagen(object instance, object Value)
+        private void set_3_Dron_Imagen(object instance, object Value)
         {
             var that = (global::ProyectoFinal_Grupo13.Dron)instance;
             that.Imagen = (global::System.String)Value;
         }
-        private object get_10_Dron_Explicacion(object instance)
-        {
-            var that = (global::ProyectoFinal_Grupo13.Dron)instance;
-            return that.Explicacion;
-        }
-        private void set_10_Dron_Explicacion(object instance, object Value)
-        {
-            var that = (global::ProyectoFinal_Grupo13.Dron)instance;
-            that.Explicacion = (global::System.String)Value;
-        }
-        private object get_11_Dron_Estado(object instance)
+        private object get_4_Dron_Estado(object instance)
         {
             var that = (global::ProyectoFinal_Grupo13.Dron)instance;
             return that.Estado;
         }
-        private void set_11_Dron_Estado(object instance, object Value)
+        private void set_4_Dron_Estado(object instance, object Value)
         {
             var that = (global::ProyectoFinal_Grupo13.Dron)instance;
-            that.Estado = (global::ProyectoFinal_Grupo13.Dron.estados)Value;
+            that.Estado = (global::System.String)Value;
         }
-        private object get_12_Dron_X(object instance)
+        private object get_5_Dron_Salario(object instance)
+        {
+            var that = (global::ProyectoFinal_Grupo13.Dron)instance;
+            return that.Salario;
+        }
+        private void set_5_Dron_Salario(object instance, object Value)
+        {
+            var that = (global::ProyectoFinal_Grupo13.Dron)instance;
+            that.Salario = (global::System.String)Value;
+        }
+        private object get_6_Dron_Libres(object instance)
+        {
+            var that = (global::ProyectoFinal_Grupo13.Dron)instance;
+            return that.Libres;
+        }
+        private void set_6_Dron_Libres(object instance, object Value)
+        {
+            var that = (global::ProyectoFinal_Grupo13.Dron)instance;
+            that.Libres = (global::System.String)Value;
+        }
+        private object get_7_Dron_X(object instance)
         {
             var that = (global::ProyectoFinal_Grupo13.Dron)instance;
             return that.X;
         }
-        private void set_12_Dron_X(object instance, object Value)
+        private void set_7_Dron_X(object instance, object Value)
         {
             var that = (global::ProyectoFinal_Grupo13.Dron)instance;
             that.X = (global::System.Int32)Value;
         }
-        private object get_13_Dron_Y(object instance)
+        private object get_8_Dron_Y(object instance)
         {
             var that = (global::ProyectoFinal_Grupo13.Dron)instance;
             return that.Y;
         }
-        private void set_13_Dron_Y(object instance, object Value)
+        private void set_8_Dron_Y(object instance, object Value)
         {
             var that = (global::ProyectoFinal_Grupo13.Dron)instance;
             that.Y = (global::System.Int32)Value;
+        }
+        private object get_9_Map_ListaDrones(object instance)
+        {
+            var that = (global::ProyectoFinal_Grupo13.Map)instance;
+            return that.ListaDrones;
         }
 
         private global::Windows.UI.Xaml.Markup.IXamlMember CreateXamlMember(string longMemberName)
@@ -590,87 +471,63 @@ namespace ProyectoFinal_Grupo13.ProyectoFinal_Grupo13_XamlTypeInfo
             {
             case "ProyectoFinal_Grupo13.Contrataciones.ListaEmpleados":
                 userType = (global::ProyectoFinal_Grupo13.ProyectoFinal_Grupo13_XamlTypeInfo.XamlUserType)GetXamlTypeByName("ProyectoFinal_Grupo13.Contrataciones");
-                xamlMember = new global::ProyectoFinal_Grupo13.ProyectoFinal_Grupo13_XamlTypeInfo.XamlMember(this, "ListaEmpleados", "System.Collections.ObjectModel.ObservableCollection`1<ProyectoFinal_Grupo13.ViewModelEmp>");
+                xamlMember = new global::ProyectoFinal_Grupo13.ProyectoFinal_Grupo13_XamlTypeInfo.XamlMember(this, "ListaEmpleados", "System.Collections.ObjectModel.ObservableCollection`1<ProyectoFinal_Grupo13.VMDron>");
                 xamlMember.Getter = get_0_Contrataciones_ListaEmpleados;
-                xamlMember.SetIsReadOnly();
-                break;
-            case "ProyectoFinal_Grupo13.Empleado.Id":
-                userType = (global::ProyectoFinal_Grupo13.ProyectoFinal_Grupo13_XamlTypeInfo.XamlUserType)GetXamlTypeByName("ProyectoFinal_Grupo13.Empleado");
-                xamlMember = new global::ProyectoFinal_Grupo13.ProyectoFinal_Grupo13_XamlTypeInfo.XamlMember(this, "Id", "Int32");
-                xamlMember.Getter = get_1_Empleado_Id;
-                xamlMember.Setter = set_1_Empleado_Id;
-                break;
-            case "ProyectoFinal_Grupo13.Empleado.Nombre":
-                userType = (global::ProyectoFinal_Grupo13.ProyectoFinal_Grupo13_XamlTypeInfo.XamlUserType)GetXamlTypeByName("ProyectoFinal_Grupo13.Empleado");
-                xamlMember = new global::ProyectoFinal_Grupo13.ProyectoFinal_Grupo13_XamlTypeInfo.XamlMember(this, "Nombre", "String");
-                xamlMember.Getter = get_2_Empleado_Nombre;
-                xamlMember.Setter = set_2_Empleado_Nombre;
-                break;
-            case "ProyectoFinal_Grupo13.Empleado.Imagen":
-                userType = (global::ProyectoFinal_Grupo13.ProyectoFinal_Grupo13_XamlTypeInfo.XamlUserType)GetXamlTypeByName("ProyectoFinal_Grupo13.Empleado");
-                xamlMember = new global::ProyectoFinal_Grupo13.ProyectoFinal_Grupo13_XamlTypeInfo.XamlMember(this, "Imagen", "String");
-                xamlMember.Getter = get_3_Empleado_Imagen;
-                xamlMember.Setter = set_3_Empleado_Imagen;
-                break;
-            case "ProyectoFinal_Grupo13.Empleado.Salario":
-                userType = (global::ProyectoFinal_Grupo13.ProyectoFinal_Grupo13_XamlTypeInfo.XamlUserType)GetXamlTypeByName("ProyectoFinal_Grupo13.Empleado");
-                xamlMember = new global::ProyectoFinal_Grupo13.ProyectoFinal_Grupo13_XamlTypeInfo.XamlMember(this, "Salario", "String");
-                xamlMember.Getter = get_4_Empleado_Salario;
-                xamlMember.Setter = set_4_Empleado_Salario;
-                break;
-            case "ProyectoFinal_Grupo13.Empleado.Libres":
-                userType = (global::ProyectoFinal_Grupo13.ProyectoFinal_Grupo13_XamlTypeInfo.XamlUserType)GetXamlTypeByName("ProyectoFinal_Grupo13.Empleado");
-                xamlMember = new global::ProyectoFinal_Grupo13.ProyectoFinal_Grupo13_XamlTypeInfo.XamlMember(this, "Libres", "String");
-                xamlMember.Getter = get_5_Empleado_Libres;
-                xamlMember.Setter = set_5_Empleado_Libres;
-                break;
-            case "ProyectoFinal_Grupo13.Map.ListaDrones":
-                userType = (global::ProyectoFinal_Grupo13.ProyectoFinal_Grupo13_XamlTypeInfo.XamlUserType)GetXamlTypeByName("ProyectoFinal_Grupo13.Map");
-                xamlMember = new global::ProyectoFinal_Grupo13.ProyectoFinal_Grupo13_XamlTypeInfo.XamlMember(this, "ListaDrones", "System.Collections.ObjectModel.ObservableCollection`1<ProyectoFinal_Grupo13.VMDron>");
-                xamlMember.Getter = get_6_Map_ListaDrones;
                 xamlMember.SetIsReadOnly();
                 break;
             case "ProyectoFinal_Grupo13.Dron.Id":
                 userType = (global::ProyectoFinal_Grupo13.ProyectoFinal_Grupo13_XamlTypeInfo.XamlUserType)GetXamlTypeByName("ProyectoFinal_Grupo13.Dron");
                 xamlMember = new global::ProyectoFinal_Grupo13.ProyectoFinal_Grupo13_XamlTypeInfo.XamlMember(this, "Id", "Int32");
-                xamlMember.Getter = get_7_Dron_Id;
-                xamlMember.Setter = set_7_Dron_Id;
+                xamlMember.Getter = get_1_Dron_Id;
+                xamlMember.Setter = set_1_Dron_Id;
                 break;
             case "ProyectoFinal_Grupo13.Dron.Nombre":
                 userType = (global::ProyectoFinal_Grupo13.ProyectoFinal_Grupo13_XamlTypeInfo.XamlUserType)GetXamlTypeByName("ProyectoFinal_Grupo13.Dron");
                 xamlMember = new global::ProyectoFinal_Grupo13.ProyectoFinal_Grupo13_XamlTypeInfo.XamlMember(this, "Nombre", "String");
-                xamlMember.Getter = get_8_Dron_Nombre;
-                xamlMember.Setter = set_8_Dron_Nombre;
+                xamlMember.Getter = get_2_Dron_Nombre;
+                xamlMember.Setter = set_2_Dron_Nombre;
                 break;
             case "ProyectoFinal_Grupo13.Dron.Imagen":
                 userType = (global::ProyectoFinal_Grupo13.ProyectoFinal_Grupo13_XamlTypeInfo.XamlUserType)GetXamlTypeByName("ProyectoFinal_Grupo13.Dron");
                 xamlMember = new global::ProyectoFinal_Grupo13.ProyectoFinal_Grupo13_XamlTypeInfo.XamlMember(this, "Imagen", "String");
-                xamlMember.Getter = get_9_Dron_Imagen;
-                xamlMember.Setter = set_9_Dron_Imagen;
-                break;
-            case "ProyectoFinal_Grupo13.Dron.Explicacion":
-                userType = (global::ProyectoFinal_Grupo13.ProyectoFinal_Grupo13_XamlTypeInfo.XamlUserType)GetXamlTypeByName("ProyectoFinal_Grupo13.Dron");
-                xamlMember = new global::ProyectoFinal_Grupo13.ProyectoFinal_Grupo13_XamlTypeInfo.XamlMember(this, "Explicacion", "String");
-                xamlMember.Getter = get_10_Dron_Explicacion;
-                xamlMember.Setter = set_10_Dron_Explicacion;
+                xamlMember.Getter = get_3_Dron_Imagen;
+                xamlMember.Setter = set_3_Dron_Imagen;
                 break;
             case "ProyectoFinal_Grupo13.Dron.Estado":
                 userType = (global::ProyectoFinal_Grupo13.ProyectoFinal_Grupo13_XamlTypeInfo.XamlUserType)GetXamlTypeByName("ProyectoFinal_Grupo13.Dron");
-                xamlMember = new global::ProyectoFinal_Grupo13.ProyectoFinal_Grupo13_XamlTypeInfo.XamlMember(this, "Estado", "ProyectoFinal_Grupo13.Dron.estados");
-                xamlMember.Getter = get_11_Dron_Estado;
-                xamlMember.Setter = set_11_Dron_Estado;
+                xamlMember = new global::ProyectoFinal_Grupo13.ProyectoFinal_Grupo13_XamlTypeInfo.XamlMember(this, "Estado", "String");
+                xamlMember.Getter = get_4_Dron_Estado;
+                xamlMember.Setter = set_4_Dron_Estado;
+                break;
+            case "ProyectoFinal_Grupo13.Dron.Salario":
+                userType = (global::ProyectoFinal_Grupo13.ProyectoFinal_Grupo13_XamlTypeInfo.XamlUserType)GetXamlTypeByName("ProyectoFinal_Grupo13.Dron");
+                xamlMember = new global::ProyectoFinal_Grupo13.ProyectoFinal_Grupo13_XamlTypeInfo.XamlMember(this, "Salario", "String");
+                xamlMember.Getter = get_5_Dron_Salario;
+                xamlMember.Setter = set_5_Dron_Salario;
+                break;
+            case "ProyectoFinal_Grupo13.Dron.Libres":
+                userType = (global::ProyectoFinal_Grupo13.ProyectoFinal_Grupo13_XamlTypeInfo.XamlUserType)GetXamlTypeByName("ProyectoFinal_Grupo13.Dron");
+                xamlMember = new global::ProyectoFinal_Grupo13.ProyectoFinal_Grupo13_XamlTypeInfo.XamlMember(this, "Libres", "String");
+                xamlMember.Getter = get_6_Dron_Libres;
+                xamlMember.Setter = set_6_Dron_Libres;
                 break;
             case "ProyectoFinal_Grupo13.Dron.X":
                 userType = (global::ProyectoFinal_Grupo13.ProyectoFinal_Grupo13_XamlTypeInfo.XamlUserType)GetXamlTypeByName("ProyectoFinal_Grupo13.Dron");
                 xamlMember = new global::ProyectoFinal_Grupo13.ProyectoFinal_Grupo13_XamlTypeInfo.XamlMember(this, "X", "Int32");
-                xamlMember.Getter = get_12_Dron_X;
-                xamlMember.Setter = set_12_Dron_X;
+                xamlMember.Getter = get_7_Dron_X;
+                xamlMember.Setter = set_7_Dron_X;
                 break;
             case "ProyectoFinal_Grupo13.Dron.Y":
                 userType = (global::ProyectoFinal_Grupo13.ProyectoFinal_Grupo13_XamlTypeInfo.XamlUserType)GetXamlTypeByName("ProyectoFinal_Grupo13.Dron");
                 xamlMember = new global::ProyectoFinal_Grupo13.ProyectoFinal_Grupo13_XamlTypeInfo.XamlMember(this, "Y", "Int32");
-                xamlMember.Getter = get_13_Dron_Y;
-                xamlMember.Setter = set_13_Dron_Y;
+                xamlMember.Getter = get_8_Dron_Y;
+                xamlMember.Setter = set_8_Dron_Y;
+                break;
+            case "ProyectoFinal_Grupo13.Map.ListaDrones":
+                userType = (global::ProyectoFinal_Grupo13.ProyectoFinal_Grupo13_XamlTypeInfo.XamlUserType)GetXamlTypeByName("ProyectoFinal_Grupo13.Map");
+                xamlMember = new global::ProyectoFinal_Grupo13.ProyectoFinal_Grupo13_XamlTypeInfo.XamlMember(this, "ListaDrones", "System.Collections.ObjectModel.ObservableCollection`1<ProyectoFinal_Grupo13.VMDron>");
+                xamlMember.Getter = get_9_Map_ListaDrones;
+                xamlMember.SetIsReadOnly();
                 break;
             }
             return xamlMember;

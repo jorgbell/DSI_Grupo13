@@ -31,7 +31,6 @@
       <RootProperty Name="Source" />
       <RootProperty Name="Margin" />
       <RootProperty Name="Stretch" />
-      <RootProperty Name="RenderTransform" />
       <RootEvent Name="PointerPressed" />
       <RootEvent Name="PointerMoved" />
       <RootEvent Name="PointerReleased" />
@@ -102,6 +101,7 @@
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="Children" />
+      <RootProperty Name="Background" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.TextBox">
       <RootProperty Name="Text" />
@@ -125,7 +125,6 @@
       <RootProperty Name="XYFocusRightNavigationStrategy" />
       <RootProperty Name="TabFocusNavigation" />
       <RootProperty Name="AllowFocusOnInteraction" />
-      <RootProperty Name="Children" />
       <RootEvent Name="PointerMoved" />
       <RootEvent Name="PointerPressed" />
       <RootEvent Name="PointerReleased" />

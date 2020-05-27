@@ -20,8 +20,9 @@ namespace ProyectoFinal_Grupo13
             Id = dron.Id;
             Nombre = dron.Nombre;
             Imagen = dron.Imagen;
-            Explicacion = dron.Explicacion;
             Estado = dron.Estado;
+            Salario = dron.Salario;
+            Libres = dron.Libres;
             X = dron.X;
             Y = dron.Y;
             RX = dron.RX;

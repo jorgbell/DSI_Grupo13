@@ -28,7 +28,7 @@ namespace ProyectoFinal_Grupo13
     /// </summary>
     public sealed partial class Contrataciones : Page
     {
-        public ObservableCollection<ViewModelEmp>  ListaEmpleados { get; } = new ObservableCollection<ViewModelEmp>();
+        public ObservableCollection<VMDron>  ListaEmpleados { get; } = new ObservableCollection<VMDron>();
         public Contrataciones()
         {
             this.InitializeComponent();
@@ -37,9 +37,9 @@ namespace ProyectoFinal_Grupo13
         {
             // Cosntruye las listas de ModelView a partir de la lista Modelo 
             if (ListaEmpleados != null)
-                foreach (Empleado emp in EmpleadoModel.GetEmpleados())
+                foreach (Dron emp in Model.GetAllDrones())
                 {
-                    ViewModelEmp VMitem = new ViewModelEmp(emp);
+                    VMDron VMitem = new VMDron(emp);
                     ListaEmpleados.Add(VMitem);
                 }
             base.OnNavigatedTo(e);
