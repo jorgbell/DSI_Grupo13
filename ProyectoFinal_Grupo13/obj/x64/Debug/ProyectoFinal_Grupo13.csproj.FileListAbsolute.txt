@@ -702,3 +702,4 @@ C:\Users\David\Desktop\GitHub\DSI_Grupo13\ProyectoFinal_Grupo13\obj\x64\Debug\Mu
 C:\Users\David\Desktop\GitHub\DSI_Grupo13\ProyectoFinal_Grupo13\obj\x64\Debug\resources.en-us.resfiles
 C:\Users\David\Desktop\GitHub\DSI_Grupo13\ProyectoFinal_Grupo13\obj\x64\Debug\resources.en-us.resfiles.intermediate
 C:\Users\David\Desktop\GitHub\DSI_Grupo13\ProyectoFinal_Grupo13\obj\x64\Debug\ProjectArchitectures.txt
+C:\Users\David\Desktop\GitHub\DSI_Grupo13\ProyectoFinal_Grupo13\obj\x64\Debug\ProyectoFinal_Grupo13.csprojAssemblyReference.cache

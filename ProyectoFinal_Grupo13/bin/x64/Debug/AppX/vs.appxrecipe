@@ -30,7 +30,7 @@
     <AppXManifest Include="C:\Users\David\Desktop\GitHub\DSI_Grupo13\ProyectoFinal_Grupo13\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-05-27T19:51:11.963</Modified>
+      <Modified>2020-05-27T19:58:33.064</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -500,7 +500,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\David\Desktop\GitHub\DSI_Grupo13\ProyectoFinal_Grupo13\Assets\Circulo.png">
       <PackagePath>Assets\Circulo.png</PackagePath>
-      <Modified>2020-05-27T19:50:31.782</Modified>
+      <Modified>2020-05-27T19:58:17.848</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\David\Desktop\GitHub\DSI_Grupo13\ProyectoFinal_Grupo13\Assets\descarga.png">
       <PackagePath>Assets\descarga.png</PackagePath>
@@ -666,23 +666,23 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\David\Desktop\GitHub\DSI_Grupo13\ProyectoFinal_Grupo13\bin\x64\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2020-05-27T19:51:10.801</Modified>
+      <Modified>2020-05-27T19:58:32.820</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\David\Desktop\GitHub\DSI_Grupo13\ProyectoFinal_Grupo13\bin\x64\Debug\Driving.xbf">
       <PackagePath>Driving.xbf</PackagePath>
-      <Modified>2020-05-27T19:51:10.801</Modified>
+      <Modified>2020-05-27T19:58:32.821</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\David\Desktop\GitHub\DSI_Grupo13\ProyectoFinal_Grupo13\bin\x64\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2020-05-27T19:51:10.802</Modified>
+      <Modified>2020-05-27T19:58:32.821</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\David\Desktop\GitHub\DSI_Grupo13\ProyectoFinal_Grupo13\bin\x64\Debug\Contrataciones.xbf">
       <PackagePath>Contrataciones.xbf</PackagePath>
-      <Modified>2020-05-27T19:51:10.802</Modified>
+      <Modified>2020-05-27T19:58:32.821</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\David\Desktop\GitHub\DSI_Grupo13\ProyectoFinal_Grupo13\bin\x64\Debug\Map.xbf">
       <PackagePath>Map.xbf</PackagePath>
-      <Modified>2020-05-27T19:51:10.802</Modified>
+      <Modified>2020-05-27T19:58:32.821</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.17134.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -694,7 +694,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\David\Desktop\GitHub\DSI_Grupo13\ProyectoFinal_Grupo13\bin\x64\Debug\Core\ProyectoFinal_Grupo13.exe">
       <PackagePath>ProyectoFinal_Grupo13.exe</PackagePath>
-      <Modified>2020-05-27T19:51:11.949</Modified>
+      <Modified>2020-05-27T19:58:33.050</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
