@@ -28,9 +28,9 @@
       <RootProperty Name="Height" />
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="Width" />
+      <RootProperty Name="Stretch" />
       <RootProperty Name="Source" />
       <RootProperty Name="Margin" />
-      <RootProperty Name="Stretch" />
       <RootEvent Name="PointerPressed" />
       <RootEvent Name="PointerMoved" />
       <RootEvent Name="PointerReleased" />
@@ -40,17 +40,18 @@
       <RootProperty Name="Foreground" />
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="Content" />
+      <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="Height" />
       <RootProperty Name="Width" />
       <RootProperty Name="RenderTransformOrigin" />
       <RootProperty Name="RenderTransform" />
       <RootProperty Name="FontSize" />
-      <RootProperty Name="HorizontalAlignment" />
       <RootEvent Name="Click" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.TextBlock">
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="Height" />
+      <RootProperty Name="TextAlignment" />
       <RootProperty Name="FontSize" />
       <RootProperty Name="Margin" />
       <RootProperty Name="Text" />

@@ -166,6 +166,7 @@
     <Content Include="Assets\Images\8.jpg" />
     <Content Include="Assets\Images\9.jpg" />
     <Content Include="Assets\Madrid.png" />
+    <Content Include="Assets\Pedal.png" />
     <Content Include="Assets\Pizzero.jpeg" />
     <Content Include="Assets\PlayPause.jpg" />
     <Content Include="Assets\ReturnButton.png" />

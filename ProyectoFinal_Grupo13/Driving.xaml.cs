@@ -22,6 +22,10 @@ namespace ProyectoFinal_Grupo13
     /// </summary>
     public sealed partial class Driving : Page
     {
+        int speed = 0;
+        int acceleration = 2;
+        int limit = 60;
+
         public Driving()
         {
             this.InitializeComponent();
@@ -42,6 +46,12 @@ namespace ProyectoFinal_Grupo13
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             this.Frame.Navigate(typeof(Map));
+        }
+
+        private void WhilePressed(object sender, PointerRoutedEventArgs e)
+        {
+            if (speed + acceleration < limit) speed += acceleration;
+            Vel.Text = "" + speed;
         }
     }
 }
