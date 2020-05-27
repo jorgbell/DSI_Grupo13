@@ -139,5 +139,12 @@ namespace ProyectoFinal_Grupo13
         {
             return Drones[id];
         }
+
+        public static void DronesRemoveItemWithId(int id)
+        {
+            int i = 0;
+            while(i< Drones.Count() && Drones[i].Id != id) i++;
+            Drones.RemoveAt(i);
+        }
     }
 }

@@ -40,7 +40,7 @@
                   ItemTemplate="{StaticResource ImageGridView_DefaultItemTemplate}"
                   VerticalAlignment="Stretch"
                   SelectionMode="Multiple"
-                  ItemClick="ImageGridView_ItemClick" IsItemClickEnabled="True">
+                  IsItemClickEnabled="True">
 
         </ListView>
 

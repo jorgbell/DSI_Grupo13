@@ -47,22 +47,13 @@ namespace ProyectoFinal_Grupo13
             
         }
 
-        private void ImageGridView_ItemClick(object sender, ItemClickEventArgs e)
-        {
-            VMDron Item = e.ClickedItem as VMDron;
-            //Imagen.Source = Item.Img.Source;
-            //Texto.Text = Item.Explicacion;
-            //ImagenC.Source = Item.Img.Source;
-            a = Item.Id; //Solo te guarda el ultimo pulsado, no se como borrar los que deseleccionas
-        }
-
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             //ListaEmpleados.RemoveAt(a); Al volver a la página la lista se llena de nuevo
             foreach (VMDron item in itemListView.SelectedItems)
             {
                 Model.Contratados.Add(item);
-                Model.Drones.RemoveAt(item.Id);
+                Model.DronesRemoveItemWithId(item.Id);
             }
 
             this.Frame.Navigate(typeof(Map), a);
