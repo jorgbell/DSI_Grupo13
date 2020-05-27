@@ -62,7 +62,7 @@
                 <Image x:Name="targetImage"
                        Grid.Row="1"
                        Source="Assets/Madrid.png"
-                       Stretch="None"
+                       Stretch="Fill"
                        PointerPressed="Mapa_PointerPressed"
                        PointerMoved="Mapa_PointerMoved"
                        PointerReleased="Mapa_PointerReleased"
