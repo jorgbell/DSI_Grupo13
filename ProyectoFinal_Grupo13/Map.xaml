@@ -83,7 +83,8 @@
                         KeyDown="MiCanvas_KeyDown" >
                     <Image x:Name="Circulo" Source="Assets/Circulo.png">
                         <Image.RenderTransform>
-                            <CompositeTransform x:Name="circulo_Transform"/>
+                            <CompositeTransform x:Name="circulo_Transform">
+                                </CompositeTransform>
                         </Image.RenderTransform>
                     </Image>
 
@@ -101,7 +102,6 @@
                   ItemsSource="{x:Bind ListaDrones}"
                   ItemTemplate="{StaticResource ImageGridView_DefaultItemTemplate}"
                   VerticalAlignment="Stretch"
-                  SelectionMode="Multiple"
                   ItemClick="ImageGridView_ItemClick"
                   IsItemClickEnabled="True"
                   IsFocusEngagementEnabled="True" 
