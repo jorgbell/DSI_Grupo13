@@ -84,16 +84,17 @@ namespace ProyectoFinal_Grupo13
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
             if (ListaDrones != null)
-                foreach (Dron dron in Model.GetAllDrones())
+
+                foreach (Dron dron in Model.GetAllContratados())
                 {
                     VMDron VMitem = new VMDron(dron);
-                    if(e.Parameter is int && dron.Id == (int)e.Parameter) ListaDrones.Add(VMitem);
+                    ListaDrones.Add(VMitem);
+                    VMitem.Id = ListaDrones.Count()-1;
                     VMitem.CCImg.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
                     MiCanvas.Children.Add(VMitem.CCImg);
                     MiCanvas.Children.Last().SetValue(Canvas.LeftProperty, VMitem.X - 25);
                     MiCanvas.Children.Last().SetValue(Canvas.TopProperty, VMitem.Y - 25);
                 }
-            
             base.OnNavigatedTo(e);
             GameTimerSetup();
         }
@@ -112,7 +113,7 @@ namespace ProyectoFinal_Grupo13
 
             if (ZMMando())
                 AplMando();
-            MuestraInfo();
+            //MuestraInfo();
 
         }
 
@@ -165,23 +166,24 @@ namespace ProyectoFinal_Grupo13
             }
         }
 
-        private void MuestraInfo()
-        {
-            if (SelMos >= 0)
-            {
-                VMDron Sel = ListaDrones[SelMos];
-                SelDatos.Text = "Nombre: " + Sel.Nombre + ", Estado:" + Sel.Estado.ToString() + ", Salario: " + Sel.Salario + ", Libres: " + Sel.Libres;
-                SelIma.Source = Sel.Img.Source;
-            }
-        }
+        //private void MuestraInfo()
+        //{
+        //    if (SelMos >= 0)
+        //    {
+        //        VMDron Sel = ListaDrones[SelMos];
+        //        SelDatos.Text = "Nombre: " + Sel.Nombre + ", Estado:" + Sel.Estado.ToString() + ", Salario: " + Sel.Salario + ", Libres: " + Sel.Libres;
+        //        SelIma.Source = Sel.Img.Source;
+        //    }
+        //}
 
         private void ImageGridView_ItemClick(object sender, ItemClickEventArgs e)
         {
             VMDron Sel = e.ClickedItem as VMDron;
             SelMos = Sel.Id;
-            MuestraInfo();
-            circulo_Transform.TranslateX = Sel.X - Circulo.Width / 2;
-            circulo_Transform.TranslateY = Sel.Y - Circulo.Height / 2;
+            //MuestraInfo();
+            circulo_Transform.TranslateX = Sel.X - Circulo.ActualWidth / 2;
+            circulo_Transform.TranslateY = Sel.Y - Circulo.ActualHeight / 2;
+            Circulo.Visibility = Visibility.Visible;
         }
 
         private void Button_ClearSelection(object sender, RoutedEventArgs e)
@@ -189,7 +191,7 @@ namespace ProyectoFinal_Grupo13
             itemListView.SelectedIndex = -1;
             SelMos = -1;
             SelInd = -1;
-            MuestraInfo();
+            //MuestraInfo();
 
         }
 
@@ -225,7 +227,7 @@ namespace ProyectoFinal_Grupo13
             {
                 SelInd = MiCanvas.Children.IndexOf(cc);
                 SelMos = SelInd;
-                MuestraInfo();
+                //MuestraInfo();
 
             }
 
@@ -247,9 +249,9 @@ namespace ProyectoFinal_Grupo13
                     ListaDrones[SelInd-1].Y = (int)ptrPt.Position.Y;
                     MiCanvas.Children[SelInd].SetValue(Canvas.LeftProperty, ListaDrones[SelInd-1].X - 25);
                     MiCanvas.Children[SelInd].SetValue(Canvas.TopProperty, ListaDrones[SelInd-1].Y - 25);
-                    circulo_Transform.TranslateX = ListaDrones[SelInd-1].X - Circulo.Width / 2;
-                    circulo_Transform.TranslateY = ListaDrones[SelInd-1].X - Circulo.Height / 2;
-                    MuestraInfo();
+                    circulo_Transform.TranslateX = ListaDrones[SelInd - 1].X - Circulo.ActualWidth / 2;
+                    circulo_Transform.TranslateY = ListaDrones[SelInd-1].Y - Circulo.ActualHeight / 2;
+                    //MuestraInfo();
 
                 }
             }

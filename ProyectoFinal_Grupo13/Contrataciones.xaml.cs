@@ -58,9 +58,14 @@ namespace ProyectoFinal_Grupo13
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            this.Frame.Navigate(typeof(Map), a);
             //ListaEmpleados.RemoveAt(a); Al volver a la página la lista se llena de nuevo
-            
+            foreach (VMDron item in itemListView.SelectedItems)
+            {
+                Model.Contratados.Add(item);
+                Model.Drones.RemoveAt(item.Id);
+            }
+
+            this.Frame.Navigate(typeof(Map), a);
         }
     }
 }

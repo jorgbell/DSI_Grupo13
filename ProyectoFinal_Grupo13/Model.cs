@@ -28,6 +28,8 @@ namespace ProyectoFinal_Grupo13
     }
     public class Model
     {
+
+        public static List<Dron> Contratados = new List<Dron>() {};
         public static List<Dron> Drones = new List<Dron>()
         {
             new Dron()
@@ -129,6 +131,10 @@ namespace ProyectoFinal_Grupo13
             return Drones;
         }
 
+        public static IList<Dron> GetAllContratados()
+        {
+            return Contratados;
+        }
         public static Dron GetDronById(int id)
         {
             return Drones[id];
