@@ -30,13 +30,13 @@
     <AppXManifest Include="D:\Otros\Uni\DSI_Grupo13\ProyectoFinal_Grupo13\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-05-27T20:29:48.502</Modified>
+      <Modified>2020-05-27T21:45:23.626</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\Otros\Uni\DSI_Grupo13\ProyectoFinal_Grupo13\bin\x64\Debug\ProyectoFinal_Grupo13.exe">
       <PackagePath>entrypoint\ProyectoFinal_Grupo13.exe</PackagePath>
-      <Modified>2020-05-27T20:29:46.670</Modified>
+      <Modified>2020-05-27T21:45:23.074</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\microsoft.csharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -666,23 +666,23 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Otros\Uni\DSI_Grupo13\ProyectoFinal_Grupo13\bin\x64\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2020-05-27T20:29:46.427</Modified>
+      <Modified>2020-05-27T21:45:22.860</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Otros\Uni\DSI_Grupo13\ProyectoFinal_Grupo13\bin\x64\Debug\Driving.xbf">
       <PackagePath>Driving.xbf</PackagePath>
-      <Modified>2020-05-27T20:29:46.427</Modified>
+      <Modified>2020-05-27T21:45:22.860</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Otros\Uni\DSI_Grupo13\ProyectoFinal_Grupo13\bin\x64\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2020-05-27T20:29:46.428</Modified>
+      <Modified>2020-05-27T21:45:22.861</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Otros\Uni\DSI_Grupo13\ProyectoFinal_Grupo13\bin\x64\Debug\Contrataciones.xbf">
       <PackagePath>Contrataciones.xbf</PackagePath>
-      <Modified>2020-05-27T20:29:46.428</Modified>
+      <Modified>2020-05-27T21:45:22.861</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Otros\Uni\DSI_Grupo13\ProyectoFinal_Grupo13\bin\x64\Debug\Map.xbf">
       <PackagePath>Map.xbf</PackagePath>
-      <Modified>2020-05-27T20:29:46.428</Modified>
+      <Modified>2020-05-27T21:45:22.861</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.17134.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -694,7 +694,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Otros\Uni\DSI_Grupo13\ProyectoFinal_Grupo13\bin\x64\Debug\Core\ProyectoFinal_Grupo13.exe">
       <PackagePath>ProyectoFinal_Grupo13.exe</PackagePath>
-      <Modified>2020-05-27T20:29:48.492</Modified>
+      <Modified>2020-05-27T21:45:23.622</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

@@ -87,12 +87,13 @@ namespace ProyectoFinal_Grupo13
                 foreach (Dron dron in Model.GetAllDrones())
                 {
                     VMDron VMitem = new VMDron(dron);
-                    //ListaDrones.Add(VMitem);
+                    if(e.Parameter is int && dron.Id == (int)e.Parameter) ListaDrones.Add(VMitem);
                     VMitem.CCImg.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
                     MiCanvas.Children.Add(VMitem.CCImg);
                     MiCanvas.Children.Last().SetValue(Canvas.LeftProperty, VMitem.X - 25);
                     MiCanvas.Children.Last().SetValue(Canvas.TopProperty, VMitem.Y - 25);
                 }
+            
             base.OnNavigatedTo(e);
             GameTimerSetup();
         }

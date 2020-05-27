@@ -29,6 +29,7 @@ namespace ProyectoFinal_Grupo13
     public sealed partial class Contrataciones : Page
     {
         public ObservableCollection<VMDron>  ListaEmpleados { get; } = new ObservableCollection<VMDron>();
+        public int a; //maybe hacer un array con todos los id de los que tienes seleccionados?
         public Contrataciones()
         {
             this.InitializeComponent();
@@ -43,19 +44,23 @@ namespace ProyectoFinal_Grupo13
                     ListaEmpleados.Add(VMitem);
                 }
             base.OnNavigatedTo(e);
+            
         }
 
         private void ImageGridView_ItemClick(object sender, ItemClickEventArgs e)
         {
-            //ViewModelEmp Item = e.ClickedItem as ViewModelEmp;
+            VMDron Item = e.ClickedItem as VMDron;
             //Imagen.Source = Item.Img.Source;
             //Texto.Text = Item.Explicacion;
             //ImagenC.Source = Item.Img.Source;
+            a = Item.Id; //Solo te guarda el ultimo pulsado, no se como borrar los que deseleccionas
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            this.Frame.Navigate(typeof(Map));
+            this.Frame.Navigate(typeof(Map), a);
+            //ListaEmpleados.RemoveAt(a); Al volver a la página la lista se llena de nuevo
+            
         }
     }
 }
