@@ -239,6 +239,17 @@ namespace ProyectoFinal_Grupo13
             SelInd = -1;
             Window.Current.CoreWindow.PointerCursor = cursorBeforePointerEntered;
         }
+
+        private void GoToDriving(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(Driving));
+        }
+
+        private void GoToMenu(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(MainPage));
+        }
+
         private void MiCanvas_KeyDown(object sender, KeyRoutedEventArgs e)
         {
             int FocInd = -1;

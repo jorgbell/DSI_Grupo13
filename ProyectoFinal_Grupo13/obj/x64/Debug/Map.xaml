@@ -36,24 +36,25 @@
             <RowDefinition Height="2*"/>
         </Grid.RowDefinitions>
         <StackPanel>
-            <TextBlock Grid.Row="0" Grid.Column="0" Text="1 000 000 $" FontSize="30"/>
-            <TextBlock Grid.Row="0" Grid.Column="0" Text="20/04/2020" FontSize="30"/>
-            <Image Source="Assets/PlayPause.jpg" Stretch="Fill" Width="155" HorizontalAlignment="Left" Height="60"/>
+            <TextBlock Grid.Row="0" Grid.Column="0" Text="1 000 000 $" FontSize="30" HorizontalAlignment="Center"/>
+            <TextBlock Grid.Row="0" Grid.Column="0" Text="20/04/2020" FontSize="30" HorizontalAlignment="Center"/>
+            <Image Source="Assets/PlayPause.jpg" Stretch="Fill" Width="155" HorizontalAlignment="Center" Height="60"/>
 
         </StackPanel>
+        <Button x:ConnectionId='5' Grid.Column="1" Background="Transparent" Foreground="White" Content="Modo Conducción" FontSize="50" HorizontalAlignment="Center"                    />
+        <Button x:ConnectionId='6' Grid.Row="1" Foreground ="White" Content="Menú Principal" HorizontalAlignment="Stretch"                 />
+        
         <TextBlock Grid.Row="2" Text="Espacio para notificaciones" FontSize="20"/>
-        <ScrollViewer x:ConnectionId='5' x:Name="MainImagenScroller"
+        <ScrollViewer x:ConnectionId='7' x:Name="MainImagenScroller"
                       Grid.Column="1"
-                      Grid.Row= "0"
-                      Grid.RowSpan="2"
-                      ZoomMode="Enabled"
-                      Margin="0 ,100, 50, 100"
+                      Grid.Row= "1"
+                      ZoomMode="Enabled"                      
                       HorizontalScrollMode="Auto"
                       HorizontalAlignment="Stretch" 
                       VerticalAlignment="Stretch">
 
             <Grid>
-                <Image x:ConnectionId='8' x:Name="targetImage"
+                <Image x:ConnectionId='10' x:Name="targetImage"
                        Source="Assets/Madrid.png"
                        Stretch="Fill"
                                                            
@@ -61,7 +62,7 @@
                                                              
                         />
 
-                <Canvas x:ConnectionId='9' x:Name="MiCanvas"
+                <Canvas x:ConnectionId='11' x:Name="MiCanvas"
                         Grid.Row="1" Grid.Column="1"
                                                         
                                                             
@@ -80,9 +81,9 @@
         </ScrollViewer>
 
 
-        <Image x:ConnectionId='6' x:Name="SelIma" Source="" Stretch="Fill" Grid.Row="2" Grid.Column="2"></Image>
+        <Image x:ConnectionId='8' x:Name="SelIma" Source="" Stretch="Fill" Grid.Row="2" Grid.Column="2"></Image>
 
-        <ListView x:ConnectionId='7' x:Name="itemListView"
+        <ListView x:ConnectionId='9' x:Name="itemListView"
                   Grid.Row="0" Grid.Column="2"
                   Grid.RowSpan="3"
                   Background="LightGray"

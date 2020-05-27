@@ -46,8 +46,8 @@
 
         
         <StackPanel Grid.ColumnSpan="1" VerticalAlignment="Center" HorizontalAlignment="Center">
-            <TextBlock Foreground="Black" FontSize="25" Text="Actuamente 2 Empleados" HorizontalAlignment="Stretch"/>
-            <TextBlock Foreground="Black" FontSize="25" Text="Beneficios = 5000$ / mes" HorizontalAlignment="Stretch"/>           
+            <TextBlock FontSize="25" Text="Actuamente 2 Empleados" HorizontalAlignment="Stretch"/>
+            <TextBlock FontSize="25" Text="Beneficios = 5000$ / mes" HorizontalAlignment="Stretch"/>           
             <Button Foreground ="White" Content="Volver al mapa" HorizontalAlignment="Stretch" Click="Button_Click"/>
               
         </StackPanel>

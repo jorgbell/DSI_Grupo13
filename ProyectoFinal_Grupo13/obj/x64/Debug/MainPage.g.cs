@@ -10,8 +10,8 @@
 
 namespace ProyectoFinal_Grupo13
 {
-    partial class MainPage :
-        global::Windows.UI.Xaml.Controls.Page,
+    partial class MainPage : 
+        global::Windows.UI.Xaml.Controls.Page, 
         global::Windows.UI.Xaml.Markup.IComponentConnector,
         global::Windows.UI.Xaml.Markup.IComponentConnector2
     {
@@ -60,3 +60,4 @@ namespace ProyectoFinal_Grupo13
         }
     }
 }
+

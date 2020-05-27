@@ -16,6 +16,7 @@
         <Button x:ConnectionId='2' Background="Gray" Foreground ="White"                      VerticalAlignment="Top">
             <Image Source="Assets\ReturnButton.png" Width="83" Height="83"/>
         </Button>
+        <TextBlock HorizontalAlignment="Left" Height="29" FontSize="26" Margin="129,867,0,104" Text="" TextWrapping="Wrap" Width="113"/>
     </Grid>
 </Page>
 
