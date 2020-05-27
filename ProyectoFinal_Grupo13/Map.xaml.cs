@@ -168,7 +168,9 @@ namespace ProyectoFinal_Grupo13
         {
             VMDron Sel = e.ClickedItem as VMDron;
             SelMos = Sel.Id;
-            this.Frame.Navigate(typeof(Contrataciones));
+            circulo_Transform.TranslateX = Sel.X - (Circulo.ActualWidth / 2);
+            circulo_Transform.TranslateY = Sel.Y - (Circulo.ActualHeight / 2);
+            //this.Frame.Navigate(typeof(Contrataciones));
         }
 
         private void Button_ClearSelection(object sender, RoutedEventArgs e)
@@ -183,6 +185,8 @@ namespace ProyectoFinal_Grupo13
             foreach (VMDron item in e.AddedItems)
             {
                 item.CCImg.Visibility = Windows.UI.Xaml.Visibility.Visible;
+                circulo_Transform.TranslateX = item.X - (Circulo.ActualWidth / 2);
+                circulo_Transform.TranslateY = item.Y - (Circulo.ActualHeight / 2);
             }
             foreach (VMDron item in e.RemovedItems)
             {
@@ -230,6 +234,8 @@ namespace ProyectoFinal_Grupo13
                     ListaDrones[SelInd].Y = (int)ptrPt.Position.Y;
                     MiCanvas.Children[SelInd].SetValue(Canvas.LeftProperty, ListaDrones[SelInd].X - 25);
                     MiCanvas.Children[SelInd].SetValue(Canvas.TopProperty, ListaDrones[SelInd].Y - 25);
+                    circulo_Transform.TranslateX = ListaDrones[SelInd].X - (Circulo.ActualWidth / 2);
+                    circulo_Transform.TranslateY = ListaDrones[SelInd].Y - (Circulo.ActualHeight / 2);
                 }
             }
         }

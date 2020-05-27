@@ -41,8 +41,8 @@
             <Image Source="Assets/PlayPause.jpg" Stretch="Fill" Width="155" HorizontalAlignment="Center" Height="60"/>
 
         </StackPanel>
-        <Button x:ConnectionId='5' Grid.Column="1" Background="Transparent" Foreground="White" Content="Modo Conducción" FontSize="50" HorizontalAlignment="Center"                    />
-        <Button x:ConnectionId='6' Grid.Row="1" Foreground ="White" Content="Menú Principal" HorizontalAlignment="Stretch"                 />
+        <Button x:ConnectionId='5' Grid.Column="1" Background="Transparent" Content="Modo Conducción" FontSize="50" HorizontalAlignment="Center"                    />
+        <Button x:ConnectionId='6' Grid.Row="1" Content="Menú Principal" HorizontalAlignment="Stretch"                 />
         
         <TextBlock Grid.Row="2" Text="Espacio para notificaciones" FontSize="20"/>
         <ScrollViewer x:ConnectionId='7' x:Name="MainImagenScroller"
@@ -75,6 +75,11 @@
                         TabFocusNavigation="Once"
                         AllowFocusOnInteraction="True"
                                                    >
+                    <Image x:ConnectionId='12' x:Name="Circulo" Source="Assets/Circulo.png">
+                        <Image.RenderTransform>
+                            <CompositeTransform x:ConnectionId='13' x:Name = "circulo_Transform" />
+                        </Image.RenderTransform>
+                    </Image>
 
                 </Canvas>
             </Grid>
