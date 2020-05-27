@@ -43,8 +43,13 @@
         </StackPanel>
         <Button Grid.Column="1" Background="Transparent" Content="Modo Conducción" FontSize="50" HorizontalAlignment="Center" Click="GoToDriving"/>
         <Button Grid.Row="1" Content="Menú Principal" HorizontalAlignment="Stretch" Click="GoToMenu"/>
-        
-        <TextBlock Grid.Row="2" Text="Espacio para notificaciones" FontSize="20"/>
+
+        <StackPanel Grid.Column="0" Grid.Row="2" Grid.ColumnSpan="2" Background="LightGray">
+            <TextBlock x:Name="SelDatos" Text="Ninguna selección" FontSize="40"/>
+            <TextBlock x:Name="TimerLog" Text="" FontSize="50" />
+            <TextBlock x:Name="GamePadLog" Text="" />
+        </StackPanel>
+
         <ScrollViewer x:Name="MainImagenScroller"
                       Grid.Column="1"
                       Grid.Row= "1"
@@ -55,6 +60,7 @@
 
             <Grid>
                 <Image x:Name="targetImage"
+                       Grid.Row="1"
                        Source="Assets/Madrid.png"
                        Stretch="Fill"
                        PointerPressed="Mapa_PointerPressed"
@@ -63,7 +69,7 @@
                         />
 
                 <Canvas x:Name="MiCanvas"
-                        Grid.Row="1" Grid.Column="1"
+                        Grid.Row="1"
                         PointerMoved="Mapa_PointerMoved"
                         PointerPressed="Mapa_PointerPressed"
                         PointerReleased="Mapa_PointerReleased"
@@ -75,6 +81,11 @@
                         TabFocusNavigation="Once"
                         AllowFocusOnInteraction="True"
                         KeyDown="MiCanvas_KeyDown" >
+                    <Image x:Name="Circulo" Source="Assets/Circulo.png">
+                        <Image.RenderTransform>
+                            <CompositeTransform x:Name="circulo_Transform"/>
+                        </Image.RenderTransform>
+                    </Image>
 
                 </Canvas>
             </Grid>
@@ -89,13 +100,14 @@
                   Background="LightGray"
                   ItemsSource="{x:Bind ListaDrones}"
                   ItemTemplate="{StaticResource ImageGridView_DefaultItemTemplate}"
-                  IsItemClickEnabled="True"
-                  SelectionMode="Single"
-                  IsFocusEngagementEnabled="True"
                   VerticalAlignment="Stretch"
+                  SelectionMode="Multiple"
                   ItemClick="ImageGridView_ItemClick"
+                  IsItemClickEnabled="True"
+                  IsFocusEngagementEnabled="True" 
                   SelectionChanged="itemListView_SelectionChanged">
-        </ListView>
 
+        </ListView>
+        <Button Grid.Row="2" Grid.Column="2" Background="Transparent" Content="Contrataciones" FontSize="30" HorizontalAlignment="Center" Click="GoToCont"/>
     </Grid>
 </Page>

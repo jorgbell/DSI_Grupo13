@@ -10,7 +10,7 @@
 
     <Page.Resources>
         <DataTemplate x:Key="ImageGridView_DefaultItemTemplate"
-                      x:DataType="local:ViewModelEmp">                      
+                      x:DataType="local:VMDron">                      
             <Grid>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="50"/>

@@ -126,12 +126,12 @@
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Contrataciones.xaml.cs" />
-    <Compile Include="Map.xaml.cs" />
+    <Compile Include="Map.xaml.cs">
+      <DependentUpon>Map.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Model.cs" />
-    <Compile Include="Empleado.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ViewModel.cs" />
-    <Compile Include="ViewModelEmp.cs" />
   </ItemGroup>
   <ItemGroup>
     <AppxManifest Include="Package.appxmanifest">
@@ -141,6 +141,7 @@
   <ItemGroup>
     <Content Include="Assets\1200px-Speaker_Icon.svg.png" />
     <Content Include="Assets\bg.jpg" />
+    <Content Include="Assets\Circulo.png" />
     <Content Include="Assets\descarga.png" />
     <Content Include="Assets\discord_icon_130958.png" />
     <Content Include="Assets\FlameIcon.png" />
@@ -198,8 +199,8 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Include="Map.xaml">
-      <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
   </ItemGroup>
   <ItemGroup>

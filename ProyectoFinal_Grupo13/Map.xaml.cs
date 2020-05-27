@@ -87,12 +87,13 @@ namespace ProyectoFinal_Grupo13
                 foreach (Dron dron in Model.GetAllDrones())
                 {
                     VMDron VMitem = new VMDron(dron);
-                    ListaDrones.Add(VMitem);
+                    if(e.Parameter is int && dron.Id == (int)e.Parameter) ListaDrones.Add(VMitem);
                     VMitem.CCImg.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
                     MiCanvas.Children.Add(VMitem.CCImg);
                     MiCanvas.Children.Last().SetValue(Canvas.LeftProperty, VMitem.X - 25);
                     MiCanvas.Children.Last().SetValue(Canvas.TopProperty, VMitem.Y - 25);
                 }
+            
             base.OnNavigatedTo(e);
             GameTimerSetup();
         }
@@ -111,6 +112,8 @@ namespace ProyectoFinal_Grupo13
 
             if (ZMMando())
                 AplMando();
+            MuestraInfo();
+
         }
 
         private void LeeMando()
@@ -162,13 +165,23 @@ namespace ProyectoFinal_Grupo13
             }
         }
 
-
+        private void MuestraInfo()
+        {
+            if (SelMos >= 0)
+            {
+                VMDron Sel = ListaDrones[SelMos];
+                SelDatos.Text = "Nombre: " + Sel.Nombre + ", Estado:" + Sel.Estado.ToString() + ", Salario: " + Sel.Salario + ", Libres: " + Sel.Libres;
+                SelIma.Source = Sel.Img.Source;
+            }
+        }
 
         private void ImageGridView_ItemClick(object sender, ItemClickEventArgs e)
         {
             VMDron Sel = e.ClickedItem as VMDron;
             SelMos = Sel.Id;
-            this.Frame.Navigate(typeof(Contrataciones));
+            MuestraInfo();
+            circulo_Transform.TranslateX = Sel.X - Circulo.Width / 2;
+            circulo_Transform.TranslateY = Sel.Y - Circulo.Height / 2;
         }
 
         private void Button_ClearSelection(object sender, RoutedEventArgs e)
@@ -176,6 +189,8 @@ namespace ProyectoFinal_Grupo13
             itemListView.SelectedIndex = -1;
             SelMos = -1;
             SelInd = -1;
+            MuestraInfo();
+
         }
 
         private void itemListView_SelectionChanged(object sender, SelectionChangedEventArgs e)
@@ -210,6 +225,8 @@ namespace ProyectoFinal_Grupo13
             {
                 SelInd = MiCanvas.Children.IndexOf(cc);
                 SelMos = SelInd;
+                MuestraInfo();
+
             }
 
         }
@@ -226,10 +243,14 @@ namespace ProyectoFinal_Grupo13
                 }
                 else
                 {
-                    ListaDrones[SelInd].X = (int)ptrPt.Position.X;
-                    ListaDrones[SelInd].Y = (int)ptrPt.Position.Y;
-                    MiCanvas.Children[SelInd].SetValue(Canvas.LeftProperty, ListaDrones[SelInd].X - 25);
-                    MiCanvas.Children[SelInd].SetValue(Canvas.TopProperty, ListaDrones[SelInd].Y - 25);
+                    ListaDrones[SelInd-1].X = (int)ptrPt.Position.X;
+                    ListaDrones[SelInd-1].Y = (int)ptrPt.Position.Y;
+                    MiCanvas.Children[SelInd].SetValue(Canvas.LeftProperty, ListaDrones[SelInd-1].X - 25);
+                    MiCanvas.Children[SelInd].SetValue(Canvas.TopProperty, ListaDrones[SelInd-1].Y - 25);
+                    circulo_Transform.TranslateX = ListaDrones[SelInd-1].X - Circulo.Width / 2;
+                    circulo_Transform.TranslateY = ListaDrones[SelInd-1].X - Circulo.Height / 2;
+                    MuestraInfo();
+
                 }
             }
         }
@@ -248,6 +269,11 @@ namespace ProyectoFinal_Grupo13
         private void GoToMenu(object sender, RoutedEventArgs e)
         {
             this.Frame.Navigate(typeof(MainPage));
+        }
+
+        private void GoToCont(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(Contrataciones));
         }
 
         private void MiCanvas_KeyDown(object sender, KeyRoutedEventArgs e)
