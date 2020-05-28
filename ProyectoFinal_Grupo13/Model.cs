@@ -29,9 +29,7 @@ namespace ProyectoFinal_Grupo13
     public class Model
     {
 
-        public static List<Dron> Contratados = new List<Dron>() {};
-        public static List<Dron> Drones = new List<Dron>()
-        {
+        public static List<Dron> Contratados = new List<Dron>() {
             new Dron()
             {
                 Id = 0,
@@ -44,7 +42,11 @@ namespace ProyectoFinal_Grupo13
                 Y = 10,
                 RX =100,
                 RY =30,
-             },
+            },
+        };
+        public static List<Dron> Drones = new List<Dron>()
+        {
+
             new Dron()
             {
                 Id = 1,
