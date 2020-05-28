@@ -25,6 +25,6 @@
         <Button Background="Transparent" Grid.Row="1" Grid.Column="1" VerticalAlignment="Bottom" HorizontalAlignment="Right" Click="Pedal_Pressed">
             <Image Source="Assets\Pedal.png" Width="200" Height="200"/>
         </Button>
-        <TextBlock x:Name="Vel" Grid.Row="1" HorizontalAlignment="Left" Height="29" Margin="80,140,0,0" TextAlignment="End" FontSize="26" Text="Hola" TextWrapping="Wrap" Width="113"/>
+        <TextBlock x:Name="Vel" Grid.Row="1" HorizontalAlignment="Left" Height="29" Margin="80,140,0,0" TextAlignment="End" FontSize="26" Text="" TextWrapping="Wrap" Width="113"/>
     </Grid>
 </Page>
