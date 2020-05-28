@@ -373,6 +373,12 @@
     <AppxPackagedFile Include="C:\Users\Tomás López\Desktop\Universidad\Segundo\TPV\DSI_Grupo13\ProyectoFinal_Grupo13\Assets\1200px-Speaker_Icon.svg.png">
       <PackagePath>Assets\1200px-Speaker_Icon.svg.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tomás López\Desktop\Universidad\Segundo\TPV\DSI_Grupo13\ProyectoFinal_Grupo13\Assets\Casco.png">
+      <PackagePath>Assets\Casco.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tomás López\Desktop\Universidad\Segundo\TPV\DSI_Grupo13\ProyectoFinal_Grupo13\Assets\Circulo.png">
+      <PackagePath>Assets\Circulo.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Tomás López\Desktop\Universidad\Segundo\TPV\DSI_Grupo13\ProyectoFinal_Grupo13\Assets\descarga.png">
       <PackagePath>Assets\descarga.png</PackagePath>
     </AppxPackagedFile>
