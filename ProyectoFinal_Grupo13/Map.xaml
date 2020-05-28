@@ -35,15 +35,16 @@
             <RowDefinition Height="10*"/>
             <RowDefinition Height="2*"/>
         </Grid.RowDefinitions>
-        <StackPanel>
-            <TextBlock Grid.Row="0" Grid.Column="0" Text="1 000 000 $" FontSize="30" HorizontalAlignment="Center"/>
-            <TextBlock Grid.Row="0" Grid.Column="0" Text="20/04/2020" FontSize="30" HorizontalAlignment="Center"/>
-            <Image Source="Assets/PlayPause.jpg" Stretch="Fill" Width="155" HorizontalAlignment="Center" Height="60"/>
+        <StackPanel >
+            <Image Source="Assets/Exit.png" HorizontalAlignment="Left" Height="60" PointerPressed="GoToMenu"/>
+            <TextBlock Grid.Row="0" Grid.Column="0" Text="1 000 000 $ (+5000)" FontSize="30" HorizontalAlignment="Left"/>
+            <TextBlock Grid.Row="0" Grid.Column="0" Text="20/04/2020" FontSize="30" HorizontalAlignment="Left"/>
+
 
         </StackPanel>
-        
+        <Image Source="Assets/PlayPause.jpg" Grid.Row="1" Stretch="Fill" Width="155" HorizontalAlignment="Center" Height="60" VerticalAlignment="Top"/>
         <Image Grid.Column="1" HorizontalAlignment="Center" Source="Assets/Casco.png" PointerPressed="GoToDriving"/>
-        <Button Grid.Row="1" Content="Menú Principal" HorizontalAlignment="Stretch" Click="GoToMenu"/>
+        <!--<Button Grid.Row="1" Content="Menú Principal" HorizontalAlignment="Stretch" Click="GoToMenu"/>-->
 
 
         <ScrollViewer x:Name="MainImagenScroller"
