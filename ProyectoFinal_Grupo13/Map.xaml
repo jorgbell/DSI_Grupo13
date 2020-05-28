@@ -88,7 +88,7 @@
                 </Canvas>
             </Grid>
         </ScrollViewer>
-
+        <TextBlock Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" Text="La última jornada ganaste 200 $" FontSize="30" HorizontalAlignment="Left"/>
 
         <Image x:Name="SelIma" Source="" Stretch="Fill" Grid.Row="2" Grid.Column="2"></Image>
         <StackPanel Grid.Row="0" Grid.Column="2" Grid.RowSpan="3">
