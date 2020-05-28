@@ -26,7 +26,13 @@ namespace ProyectoFinal_Grupo13
         int speed = 0;
         int acceleration = 2;
         int limit = 60;
-
+        DispatcherTimer HeatTimer;
+        DateTimeOffset startTime;
+        DateTimeOffset lastTime;
+        DateTimeOffset stopTime;
+        int timesTicked = 1;
+        int flameCounter = 0;
+        int timesToTick = 2;
         public Driving()
         {
             this.InitializeComponent();
@@ -34,7 +40,40 @@ namespace ProyectoFinal_Grupo13
             Windows.UI.Xaml.Navigation.NavigationCacheMode.Enabled;
             Vel.Focus(FocusState.Keyboard);
         }
+        protected override void OnNavigatedTo(NavigationEventArgs e)
+        {
+            HeatTimerSetup();
+        }
+        public void HeatTimerSetup()
+        {
+            HeatTimer = new DispatcherTimer();
+            HeatTimer.Tick += HeatTimer_Ticks;
+            HeatTimer.Interval = new TimeSpan(10000);
+            startTime = DateTimeOffset.Now;
+            lastTime = startTime;
+            HeatTimer.Start();
+        }
+        void HeatTimer_Ticks(object sender, object e)
+        {
+            DateTimeOffset time = DateTimeOffset.Now;
+            TimeSpan span = time - lastTime;
+            lastTime = time;
+            //Time since last tick should be very very close to Interval
+            timesTicked++;
+            if (timesTicked > timesToTick)
+            {
+                if (timesTicked % 3 == 0) 
+                {
+                  flameCounter++;
+                  flame.Opacity -= 0.01;
+                }
+                timesTicked = 0;
+                //stopTime = time;
+                //HeatTimer.Stop();
+                //span = stopTime - startTime;
+            }
 
+        }
         private void New_Game(object sender, RoutedEventArgs e)
         {
             this.Frame.Navigate(typeof(Map));

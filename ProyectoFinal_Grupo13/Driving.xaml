@@ -14,14 +14,11 @@
             <RowDefinition Height="2*"/>
             <RowDefinition Height="1.5*"/>
         </Grid.RowDefinitions>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="*"/>
-            <ColumnDefinition Width="3*"/>
-        </Grid.ColumnDefinitions>
 
         <Image HorizontalAlignment="Left" Height="1001" VerticalAlignment="Center" Width="1542" Stretch="UniformToFill" Grid.ColumnSpan="2" Grid.RowSpan="2" Source="Assets\Pizzero.jpeg"/>
-        <Image HorizontalAlignment="Center"  VerticalAlignment="Center" Grid.Row="1" Height="345" Width="345" Source="Assets\Velocimetro.png"/>
-        <Image HorizontalAlignment="Left" Height="124" Margin="702,0,0,0" VerticalAlignment="Top" Width="112" Source="Assets\FlameIcon.png"/>
+        <Image HorizontalAlignment="Left"  VerticalAlignment="Center" Grid.Row="1" Height="345" Width="345" Source="Assets\Velocimetro.png"/>
+        <Image x:Name="flame"  HorizontalAlignment="Center"  VerticalAlignment="Top" Grid.Row="0"  Height="150" Width="90" Source="Assets\FlameIcon.png" FocusVisualPrimaryBrush="Black"/>
+
         <Button Background="Gray" Foreground ="White" Click="Button_Click" VerticalAlignment="Top">
             <Image Source="Assets\ReturnButton.png" Width="83" Height="83"/>
         </Button>
