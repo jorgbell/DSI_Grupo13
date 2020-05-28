@@ -50,14 +50,15 @@
         <ScrollViewer x:Name="MainImagenScroller"
                       Grid.Column="1"
                       Grid.Row= "1"
-                      ZoomMode="Enabled"                      
-                      HorizontalScrollMode="Auto"
                       HorizontalAlignment="Stretch" 
-                      VerticalAlignment="Stretch">
+                      VerticalAlignment="Stretch"
+                      VerticalScrollMode="Disabled"
+                      VerticalScrollBarVisibility="Disabled">
 
             <Grid>
                 <Image x:Name="targetImage"
                        Grid.Row="1"
+                       Grid.Column="1"
                        Source="Assets/Madrid.png"
                        Stretch="Fill"
                        PointerPressed="Mapa_PointerPressed"
@@ -67,6 +68,7 @@
 
                 <Canvas x:Name="MiCanvas"
                         Grid.Row="1"
+                        
                         PointerMoved="Mapa_PointerMoved"
                         PointerPressed="Mapa_PointerPressed"
                         PointerReleased="Mapa_PointerReleased"
@@ -88,7 +90,7 @@
                 </Canvas>
             </Grid>
         </ScrollViewer>
-        <TextBlock Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" Text="La última jornada ganaste 200 $" FontSize="30" HorizontalAlignment="Left"/>
+        <TextBlock Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" Text="La última jornada ganaste 200 $" FontSize="30" HorizontalAlignment="Left" Margin="10"/>
 
         <Image x:Name="SelIma" Source="" Stretch="Fill" Grid.Row="2" Grid.Column="2"></Image>
         <StackPanel Grid.Row="0" Grid.Column="2" Grid.RowSpan="3">
